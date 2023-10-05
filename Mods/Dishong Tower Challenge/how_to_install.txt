@@ -1,9 +1,0 @@
-
-Installation Instructions
-
-1) Go to the location of your 7 days to die install usually located at C:\Program Files (x86)\Steam\steamapps\common\7 Days To Die
-2) In the main directoy create a folder called Mods.
-3) Extract the zipped file that you downloaded.
-4) Navigate into the folder that was created after unzipping until you find the folder named Dishong Tower Challenge.
-4) Make sure there is not a folder inside a folder, if you click into the Dishong Tower Challenge folder it should contain a modinfo.xml
-5) drag the folder named Dishong Tower Challenge into the Mods folder.
