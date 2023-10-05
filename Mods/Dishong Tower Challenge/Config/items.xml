@@ -1,0 +1,14 @@
+﻿<configs>
+	<insertafter xpath="/items/item[@name]/property[1]">
+		<property name="CreativeMode" value="None"/>
+	</insertafter>
+	<set xpath="/items/item//property[@name='CreativeMode']/@value">None</set>
+	
+	<set xpath="/items/item[@name='foodPumpkinBread']/effect_group/triggered_effect[@cvar='$foodAmountAdd']/@value">22</set>
+	<set xpath="/items/item[@name='foodPumpkinBread']/effect_group/triggered_effect[@cvar='foodHealthAmount']/@value">11</set>
+	<set xpath="/items/item[@name='foodEgg']/property[@name='EconomicValue']/@value">30</set>
+	
+	<set xpath="//item[@name='resourceCoal']//property[@name='Group']/@value">Resources,Chemicals,CFChemicals</set>
+	
+	<set xpath="//item[@name='resourceWaterFilter']//property[@name='Stacknumber']/@value">1</set>
+</configs>

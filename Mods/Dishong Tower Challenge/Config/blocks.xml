@@ -1,0 +1,54 @@
+﻿<configs>
+  
+	<insertafter xpath="/blocks/block[@name]/property[1]">
+		<property name="CreativeMode" value="None"/>
+	</insertafter>
+	<set xpath="/blocks/block[@name]/property[@name='CreativeMode']/@value">None</set>
+	
+	<set xpath="//block[@name='glassBulletproofMaster']/property[@name='LightOpacity']/@value">0</set>
+	<set xpath="//block[@name='glassBusinessBlock']/property[@name='LightOpacity']/@value">0</set>
+	
+	<remove xpath="//block[@name='cntPillCaseClosed']/drop[@event='Destroy']"></remove>
+	
+	<insertafter xpath="//block[@name='cntPillCaseEmpty']//drop[1]">
+		<drop event="Destroy" name="resourceAcid" prob=".5" count="1" tag="WasteTreasuresAcidHarvest"/>
+	</insertafter>
+	
+	<append xpath="/blocks/block[starts-with(@name, 'spotlight')]">
+		<drop event="Harvest" name="resourceHeadlight" count="1" prob="1" tag="salvageHarvest"/>
+	</append>
+
+	<insertafter xpath="//block[@name='cntCollapsedCementMixer']//drop[5]">
+		<drop event="Harvest" name="ammoGasCan" count="50,500" tag="salvageHarvest"/>
+		<drop event="Destroy" name="smallEngine" count="1" prob="1" tag="salvageHarvest"/>	
+	</insertafter>
+	
+	<insertbefore xpath="//block[@name='tableSaw']//property[@name='CreativeMode']">
+		<drop event="Destroy" name="carBattery" count="1" prob="1" tag="salvageHarvest"/>	
+	</insertbefore>
+	
+	<append xpath="/blocks/block[@name='workLightPOI']">
+		<drop event="Destroy" name="resourceHeadlight" count="1" prob="1" tag="salvageHarvest"/>
+		<drop event="Destroy" name="carBattery" count="1" prob="0.10" tag="salvageHarvest"/>
+	</append>
+	  
+	<append xpath="/blocks/block[@name='treeMaster']">
+		<drop event="Harvest" name="resourceYuccaFibers" count="30" tag="oreWoodHarvest"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='treePlant02']">  <!-- Potted Plant -->
+		<drop event="Harvest" name="resourceYuccaFibers" count="30" tag="oreWoodHarvest"/>
+		<drop event="Harvest" name="resourceClayLump" count="3" tag="oreWoodHarvest"/>
+		<drop event="Harvest" name="treePlantedOak1m" count="1" prob="0.1" tag="allHarvest"/>
+	</append>
+	  
+	<append xpath="/blocks/block[@name='terrDestroyedStone']">  <!-- Destroyed Stone -->
+		<drop event="Harvest" name="resourceClayLump" count="8" tag="oreWoodHarvest"/> 
+	</append>
+	 
+	<remove xpath="//block[@name='spotlightDownLeft_POI']//drop[@name='resourceHeadlight']" />
+	<append xpath="//block[starts-with(@name,'projector')]">
+		<drop event="Destroy" name="resourceHeadlight" count="1" prob="1" tag="salvageHarvest"/>
+	</append>
+
+</configs>

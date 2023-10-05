@@ -1,0 +1,8 @@
+<configs>
+	<remove xpath="//windows/window[21]/rect[2]/rect[2]/rect[1]/grid[@pos='6,-40']//gameoption[@name='XPMultiplier']" />
+	<remove xpath="//windows/window[21]/rect[2]/rect[2]/rect[1]/grid[@pos='6,-40']//gameoption[@name='DayNightLength']" />
+	<remove xpath="//windows/window[21]/rect[2]/rect[2]/rect[3]/grid[@pos='6,-40']//gameoption[@name='BlockDamagePlayer']" />
+	<remove xpath="//windows/window[21]/rect[2]/rect[2]/rect[3]/grid[@pos='6,-40']//gameoption[@name='LootAbundance']" />
+	<!-- <remove xpath="//windows/window[21]/rect[2]/rect[2]/rect[2]/grid[@pos='6,-40']//gameoption[@name='BloodMoonFrequency']" /> -->
+
+</configs>

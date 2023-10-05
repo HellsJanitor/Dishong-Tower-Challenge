@@ -1,0 +1,58 @@
+<configs>
+	<!-- removes seed crafting skill as it's not required -->
+	<set xpath="//crafting_skill[@name='craftingSeeds']/@max_level">1</set>
+	<set xpath="//crafting_skill[@name='craftingSeeds']//display_entry[1]/@unlock_level">1,1,1,1,1</set>
+	<set xpath="//crafting_skill[@name='craftingSeeds']//display_entry[2]/@unlock_level">1,1,1,1,1</set>
+	<set xpath="//crafting_skill[@name='craftingSeeds']/effect_group//passive_effect[1]/@level">1,1</set>
+	<set xpath="//crafting_skill[@name='craftingSeeds']/effect_group//passive_effect[2]/@level">1,1</set>
+	<set xpath="//crafting_skill[@name='craftingSeeds']/effect_group//passive_effect[3]/@level">1,1</set>
+	<set xpath="//crafting_skill[@name='craftingSeeds']/effect_group//passive_effect[4]/@level">1,1</set>
+	<set xpath="//crafting_skill[@name='craftingSeeds']/effect_group//passive_effect[5]/@level">1,1</set>
+	<set xpath="//crafting_skill[@name='craftingSeeds']/effect_group//passive_effect[6]/@level">1,1</set>
+	<set xpath="//crafting_skill[@name='craftingSeeds']/effect_group//passive_effect[7]/@level">1,1</set>
+	<set xpath="//crafting_skill[@name='craftingSeeds']/effect_group//passive_effect[8]/@level">1,1</set>
+	<set xpath="//crafting_skill[@name='craftingSeeds']/effect_group//passive_effect[9]/@level">1,1</set>
+	<set xpath="//crafting_skill[@name='craftingSeeds']/effect_group//passive_effect[10]/@level">1,1</set>
+	
+	<!-- increase probabilty of finding vehicle magazines with each perk point -->
+	<set xpath="//perk[@name='perkGreaseMonkey']/effect_group//passive_effect[2]/@value">3,15</set>
+	<set xpath="//perk[@name='perkGreaseMonkey']/effect_group//passive_effect[3]/@value">3,15</set>
+	
+	<!-- Once vehicle crafting skill reaches 50, set the probability bonus of finding vehicle crafting skill magazines to 0 -->
+	<set xpath="//perk[@name='perkGreaseMonkey']/effect_group/passive_effect[4]/requirement[@name='ProgressionLevel']/@value">50</set>
+	
+	<!-- lowers number requirement of vehicle magazines to craft vehicles AFTER minibike, up to and including gyrocopter -->
+	<set xpath="//crafting_skill[@name='craftingVehicles']/@max_level">50</set>
+	<set xpath="//crafting_skill[@name='craftingVehicles']/effect_group//passive_effect[1]/@level">5,50</set>
+	<set xpath="//crafting_skill[@name='craftingVehicles']//display_entry[@name_key='vehiclesT2']/@unlock_level">15</set>
+	<set xpath="//crafting_skill[@name='craftingVehicles']/effect_group//passive_effect[2]/@level">15,50</set>
+	<set xpath="//crafting_skill[@name='craftingVehicles']//display_entry[@name_key='vehiclesT3']/@unlock_level">20</set>
+	<set xpath="//crafting_skill[@name='craftingVehicles']/effect_group//passive_effect[3]/@level">20,50</set>
+	<set xpath="//crafting_skill[@name='craftingVehicles']//display_entry[@name_key='vehiclesT4']/@unlock_level">35</set>
+	<set xpath="//crafting_skill[@name='craftingVehicles']/effect_group//passive_effect[4]/@level">35,50</set>
+	<set xpath="//crafting_skill[@name='craftingVehicles']//display_entry[@name_key='vehiclesT5']/@unlock_level">50</set>
+	<set xpath="//crafting_skill[@name='craftingVehicles']/effect_group//passive_effect[5]/@level">50,50</set>
+	
+	<!-- increase probabilty of finding workstation magazines with each perk point -->
+	<set xpath="//perk[@name='perkLockPicking']/effect_group//passive_effect[5]/@value">3,15</set>
+	<set xpath="//perk[@name='perkAdvancedEngineering']/effect_group//passive_effect[11]/@value">3,15</set>
+	
+	<!-- Once workstation crafting skill reaches 50, set the probability bonus of finding workstation crafting skill magazines to 0 -->
+	<set xpath="//perk[@name='perkLockPicking']/effect_group/passive_effect[5]/requirement[@name='ProgressionLevel']/@value">50</set>
+	<set xpath="//perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[15]/requirement[@name='ProgressionLevel']/@value">50</set>
+	
+	<!-- lowers number requirement of workstation magazines to craft workstations AFTER workbench, up to and including crucible -->
+	<set xpath="//crafting_skill[@name='craftingWorkstations']/@max_level">50</set>
+	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[1]/@level">2,50</set>
+	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[2]/@level">5,50</set>
+	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[3]/@level">10,50</set>
+	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[4]/@level">15,50</set>
+	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[5]/@level">20,50</set>
+	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[6]/@level">25,50</set>
+	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[7]/@level">30,50</set>
+	<set xpath="//crafting_skill[@name='craftingWorkstations']//display_entry[@name_key='workstationsT4']/@unlock_level">40</set>
+	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[8]/@level">40,50</set>
+	<set xpath="//crafting_skill[@name='craftingWorkstations']//display_entry[@name_key='workstationsT5']/@unlock_level">50</set>
+	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[9]/@level">50,50</set>
+			
+</configs>

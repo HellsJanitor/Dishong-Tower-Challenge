@@ -1,0 +1,6 @@
+You must enter the Dishong Tower immediately (being on the front porch counts as being in) and cannot leave thereafter.
+You may build bridges off the side of the building to reach things, but those bridges must support themselves and cannot touch the ground.
+You may not mine or dig under the building.
+All default game settings, unless you want to turn up the size of the hordes
+If you die, the game is over.
+You must survive until you are able to build a gyrocopter and fly off the roof.

@@ -1,0 +1,60 @@
+﻿<configs>
+	<!-- remove seed magazines from loot as they are not required for seed crafting -->
+	<remove xpath="//lootgroup//item[@name='seedSkillMagazine']"></remove>
+	<!-- removes MOST container downgrades/destroy on loot -->
+	<removeattribute xpath="//lootcontainer/@destroy_on_close" />
+	<setattribute xpath="//lootcontainer[@name='junk']" name="destroy_on_close">empty</setattribute>
+	<setattribute xpath="//lootcontainer[@name='laundryBasket']" name="destroy_on_close">empty</setattribute>
+	<setattribute xpath="//lootcontainer[@name='birdNest']" name="destroy_on_close">empty</setattribute>
+	<setattribute xpath="//lootcontainer[@name='pants']" name="destroy_on_close">empty</setattribute>
+	<setattribute xpath="//lootcontainer[@name='shirts']" name="destroy_on_close">empty</setattribute>
+	<setattribute xpath="//lootcontainer[@name='ammoPileSmall']" name="destroy_on_close">empty</setattribute>
+	<setattribute xpath="//lootcontainer[@name='ammoPileMed']" name="destroy_on_close">empty</setattribute>
+	<setattribute xpath="//lootcontainer[@name='ammoPileLarge']" name="destroy_on_close">empty</setattribute>
+	<setattribute xpath="//lootcontainer[@name='foodPileSmall']" name="destroy_on_close">empty</setattribute>
+	<setattribute xpath="//lootcontainer[@name='foodPileMed']" name="destroy_on_close">empty</setattribute>
+	<setattribute xpath="//lootcontainer[@name='foodPileLarge']" name="destroy_on_close">empty</setattribute>
+	<setattribute xpath="//lootcontainer[@name='medicalPileSmall']" name="destroy_on_close">empty</setattribute>
+	<setattribute xpath="//lootcontainer[@name='medicalPileMedium']" name="destroy_on_close">empty</setattribute>
+	<setattribute xpath="//lootcontainer[@name='medicalPileLarge']" name="destroy_on_close">empty</setattribute>
+	<setattribute xpath="//lootcontainer[@name='liquorPileSmall']" name="destroy_on_close">empty</setattribute>
+	<setattribute xpath="//lootcontainer[@name='liquorPileMed']" name="destroy_on_close">empty</setattribute>
+	<setattribute xpath="//lootcontainer[@name='liquorPileLarge']" name="destroy_on_close">empty</setattribute>
+	<setattribute xpath="//lootcontainer[@name='closet']" name="destroy_on_close">empty</setattribute>
+	<setattribute xpath="//lootcontainer[@name='shoes']" name="destroy_on_close">empty</setattribute>
+	<setattribute xpath="//lootcontainer[@name='bookPile']" name="destroy_on_close">empty</setattribute>
+	<setattribute xpath="//lootcontainer[@name='singleBooks']" name="destroy_on_close">empty</setattribute>
+	<setattribute xpath="//lootcontainer[@name='chemPileSmall']" name="destroy_on_close">empty</setattribute>
+	<setattribute xpath="//lootcontainer[@name='chemPileMed']" name="destroy_on_close">empty</setattribute>
+	<setattribute xpath="//lootcontainer[@name='chemPileLarge']" name="destroy_on_close">empty</setattribute>
+	<setattribute xpath="//lootcontainer[@name='collapsedDewCollector']" name="destroy_on_close">empty</setattribute>
+	
+	<!-- removes paper from bookshelf loot -->
+	<remove xpath="//lootgroup[@name='groupBookcase01']//item[@name='resourcePaper']" />
+	<remove xpath="//lootgroup[@name='groupBookcase02']//item[@name='resourcePaper']" />
+	<remove xpath="//lootgroup[@name='groupMailbox01']//item[@name='resourcePaper']" />
+	<remove xpath="//lootgroup[@name='groupMailbox02']//item[@name='resourcePaper']" />
+	<remove xpath="//lootgroup[@name='groupCrackabookShelves01']//item[@name='resourcePaper']" />
+	<remove xpath="//lootgroup[@name='groupFileCabinet01']//item[@name='resourcePaper']" />
+	<remove xpath="//lootgroup[@name='groupMoPowerShelves']//item[@name='resourcePaper']" />
+	
+	
+	<!-- changes to cement mixer loot -->
+    <set xpath="/lootcontainers/lootgroup[@name='groupCementMixerLoot']">
+        <item name="resourceRockSmall" count="40,120"/>
+        <item name="resourceClayLump" count="40,120"/>
+        <item name="resourceCrushedSand" count="40,120"/>
+        <item name="resourceOilShale" count="18,36"/>
+	</set>
+	
+	<!-- guaranteed battery -->
+	<set xpath="//lootgroup[@name='groupBattBank']//item[2]/@loot_prob_template">guaranteed</set>
+	
+	<!-- water filter -->
+	<remove xpath="//lootgroup[@name='groupDewCollectorLoot03']//item[@name='resourceWaterFilter']" />
+	<insertbefore xpath="//lootgroup[@name='groupDewCollector']//item[1]">
+		<item name="resourceWaterFilter" loot_prob_template="guaranteed"/>
+	</insertbefore>
+	
+	
+</configs>
