@@ -1,5 +1,5 @@
 ﻿<configs>
-  <set xpath="//entity_class[@name='playerMale']/property[starts-with(@name, 'ItemsOnEnterGame')]/@value">meleeToolRepairT0StoneAxe=6,drinkJarBoiledWater,foodCanChili,medicalFirstAidBandage,meleeToolTorch</set>
+  <set xpath="//entity_class[@name='playerMale']/property[starts-with(@name, 'ItemsOnEnterGame')]/@value">Backpack</set>
 
   <append xpath="//entity_class[starts-with(@name, 'zombieUtilityWorker')]">
     <drop event="Harvest" name="workstationSkillMagazine" tag="butcherHarvest" count="1" prob="0.10"/>
