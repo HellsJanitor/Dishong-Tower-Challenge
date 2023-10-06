@@ -1,6 +1,7 @@
 ﻿<config>
 	<append xpath="/items">
 		<item name="drugAvoidBloodmoon">
+			<property name="CreativeMode" value="None"/>
 			<property name="Tags" value="medical"/>
 			<property name="HoldType" value="16"/>
 			<property name="Meshfile" value="@:Other/Items/Health/painkillersPrefab.prefab"/>

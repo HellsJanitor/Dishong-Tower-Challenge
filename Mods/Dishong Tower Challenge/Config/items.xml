@@ -6,6 +6,7 @@
 	
 	<insertAfter xpath="/items/item[@name='ammoBundleMaster']">
 	<item name="Backpack">
+		<property name="CreativeMode" value="None"/>
 		<property name="CustomIcon" value="backpackMedium"/>
 		<property name="ItemTypeIcon" value="bundle"/>
 		<property name="HoldType" value="45"/>
