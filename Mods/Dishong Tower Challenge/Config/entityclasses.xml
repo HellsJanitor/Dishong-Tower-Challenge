@@ -14,13 +14,13 @@
   </append>
   
   <append xpath="//entity_class[starts-with(@name, 'zombieBusinessMan')]">
-    <drop event="Harvest" name="casinoCoin" tag="butcherHarvest" count="5,10" prob="0.10"/>
+    <drop event="Harvest" name="casinoCoin" count="5,10" prob="0.10" tag="butcherHarvest"/>
     <property name="DeadBodyHitPoints" value="1000"/>
 	<property name="TimeStayAfterDeath" value="600"/>	
   </append>
   
   <append xpath="//entity_class[starts-with(@name, 'zombiePartyGirl')]">
-    <drop event="Harvest" name="oldCash" tag="butcherHarvest" count="5,10" prob="0.10"/>
+    <drop event="Harvest" name="oldCash" count="5,10" prob="0.10" tag="butcherHarvest"/>
     <property name="DeadBodyHitPoints" value="1000"/>
 	<property name="TimeStayAfterDeath" value="600"/>	
   </append>
