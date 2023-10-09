@@ -49,6 +49,7 @@
 	
 	<!-- guaranteed battery -->
 	<set xpath="//lootgroup[@name='groupBattBank']//item[2]/@loot_prob_template">guaranteed</set>
+	<setattribute xpath="//lootcontainer[@name='collapsedBatteryBank']" name="destroy_on_close">empty</setattribute>
 	
 	<!-- water filter -->
 	<remove xpath="//lootgroup[@name='groupDewCollectorLoot03']//item[@name='resourceWaterFilter']" />
