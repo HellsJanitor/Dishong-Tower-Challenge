@@ -1,5 +1,27 @@
 ﻿<configs>
-  
+	<insertafter xpath="/blocks/block[@name='concreteNoUpgradeMaster']">
+	<block name="concreteRadiation">
+		<property name="CreativeMode" value="Dev"/>
+		<property name="DescriptionKey" value="concreteNoUpgradeGroupDesc"/>
+		<property name="DisplayType" value="blockHardened"/>
+		<property name="Material" value="Mconcrete"/>
+		<property name="Texture" value="8"/>
+		<property name="EconomicValue" value="50"/>
+		<property name="EconomicBundleSize" value="20"/>
+		<property name="BuffsWhenWalkedOn" value="buffInternalBleeding"/>
+		<property class="RepairItems">
+			<property name="resourceConcreteMix" value="8"/>
+		</property>
+		<drop event="Harvest" name="resourceRockSmall" count="25" tag="allHarvest"/>
+		<drop event="Destroy" count="0"/>
+		<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+		<property name="SortOrder1" value="M070"/>
+		<property name="SortOrder2" value="0000"/>
+		<property name="Group" value="Building,advBuilding"/>
+		<property name="FilterTags" value="MC_building"/>
+	</block>
+	</insertafter>	
+	
 	<insertafter xpath="/blocks/block[@name]/property[1]">
 		<property name="CreativeMode" value="None"/>
 	</insertafter>
