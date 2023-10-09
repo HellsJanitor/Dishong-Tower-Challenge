@@ -2,20 +2,53 @@
 <Servers>
     <ServerGroup Name="Dishong Tower" Logo="https://cdn.discordapp.com/attachments/1155647724478275614/1159550526422253678/Dishong_splash.png" Description="Can you escape the Dishong Tower?">
         <Server Name="Dishong Tower" Logo="https://cdn.discordapp.com/attachments/1155647724478275614/1159550526422253678/Dishong_splash.png">
-            <Description>The Dishong Tower Challenge:
+            <Description>								THE DISHONG TOWER CHALLENGE:
 			Can you survive and escape the Dishong Tower, using nothing but what you can scavenge from the tower itself?
-			You have one life, one mission, one means of escape.
+						You have one life, one mission, one means of escape.
+						
+This challenge places you, a lone survivor, in the eponymous Dishong Tower, a towering edifice of death incarnate. Your only means of escape is to gather everything you need to be able to craft a gyrocopter and make your escape from the rooftop to the nearby settlement. You have one life. Make it count.
+
+ 
+	A mini overhaul mod, re-imagined for Alpha 21. One tower, one trader, one means of escape.
+
+ 
+
+Four custom worlds, each a different biome, so you can choose your starting "difficulty" - Forest, Desert, Snow, or the ultimate challenge, Wasteland.
+
+	Custom-edited Dishong Tower POI, giving you everything you need to be able to complete your quest.
+
+						Custom questline, guiding you on your way.
+
+		Custom HUD, and in-game options added for toggling crosshair visibility, health bar visibility, etc.
+					Pause the game, and look for "Video", then the "Customize" tab.
+					
+CHALLENGE RULES: 
+
+1: You must enter the Dishong Tower immediately (being on the front porch counts as being in) and cannot leave thereafter.
+
+2: The rubble on the ground around the tower is NOT part of the tower, and as such may NOT be used to support any structures, or to grow any crops, unless you can do this WITHOUT touching it.
+
+3: You may build bridges off the side of the building to reach things, but those bridges must support themselves and cannot touch the ground.
+
+4: You may NOT mine or dig under the building.
+
+5: All default game settings, unless you want to turn up the size of the hordes. It's recommended to have loot respawn set to 7 days and turn airdrops OFF.
+
+6: If you die, the game is over.
+
+7: You must survive until you are able to build a gyrocopter and fly off the roof.
 			
 						Contributors:
-						DishongGameOptions 		-Author: w00kien00kie
-						Cleaner HUD				-Author: Frantic_Dan
-						KHA21-HPBars			-Author: Khaine
-						Khelldon Custom Menu 	-Author: Khelldon
-						WMMAvoidBloodmoon 		-Author: w00kien00kie
-						WMMLootRespawnTweak		-Author: w00kien00kie
-						WMMStashBackpack		-Author: w00kien00kie
+						DishongGameOptions 			-Author: w00kien00kie
+						Cleaner HUD					-Author: Frantic_Dan
+						KHA21-HPBars				-Author: Khaine
+						Khelldon Custom Menu 		-Author: Khelldon
+						WMMAvoidBloodmoon 			-Author: w00kien00kie
+						WMMLootRespawnTweak			-Author: w00kien00kie
+						WMMStashBackpack			-Author: w00kien00kie
+						WMMVideoOptions				-Author: w00kien00kie
 						
-						For full details, check the forum post here: https://community.7daystodie.com/topic/34098-the-dishong-tower-challenge-updated-for-alpha-21/
+For full details, check the forum post here: https://community.7daystodie.com/topic/34098-the-dishong-tower-challenge-updated-for-alpha-21/
 			
             </Description>
             <Discord></Discord>
