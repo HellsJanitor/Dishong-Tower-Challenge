@@ -1,5 +1,6 @@
 # Dishong-Tower-Challenge
-All files and folders needed to run the mod
+All files and folders needed to run the mod.
+
 This challenge places you, a lone survivor, in the eponymous Dishong Tower, a towering edifice of death incarnate. Your only means of escape is to gather everything you need to be able to craft a gyrocopter and make your escape from the rooftop to the nearby settlement. You have one life. Make it count.
 
  
