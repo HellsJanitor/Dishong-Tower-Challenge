@@ -98,9 +98,9 @@
 		<drop event="Destroy" name="smallEngine" count="1" prob="1" tag="salvageHarvest"/>	
 	</insertafter>
 	
-	<insertbefore xpath="//block[@name='tableSaw']//property[@name='CreativeMode']">
-		<drop event="Destroy" name="carBattery" count="1" prob="1" tag="salvageHarvest"/>	
-	</insertbefore>
+	<insertafter xpath="//block[@name='tableSaw']//property[@name='WorkstationIcon']">
+		<drop event="Destroy" name="carBattery" count="1" tag="salvageHarvest"/>	
+	</insertafter>
 	
 	<append xpath="/blocks/block[@name='workLightPOI']">
 		<drop event="Destroy" name="resourceHeadlight" count="1" prob="1" tag="salvageHarvest"/>

@@ -24,9 +24,9 @@
   <property name="SleeperVolumeFlags" value="0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,2,0,0,2,2,2,2,3" />
   <property name="PrefabSize" value="60, 108, 60" />
   <property name="SleeperVolumeTriggeredBy" value=" # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #1" />
-  <property name="TriggerVolumeSize" value="60, 1, 60#1, 1, 15#1, 1, 15#9, 1, 2" />
-  <property name="TriggerVolumeStart" value="0, 1, 0#26, 2, 0#34, 2, 0#26, 2, 3" />
-  <property name="TriggerVolumeTriggers" value="1#1#1#1" />
+  <property name="TriggerVolumeSize" value="9, 1, 2" />
+  <property name="TriggerVolumeStart" value="26, 2, 3" />
+  <property name="TriggerVolumeTriggers" value="1" />
   <property class="Stats">
     <property name="TotalVertices" value="5329408" />
     <property name="TotalTriangles" value="2245423" />
