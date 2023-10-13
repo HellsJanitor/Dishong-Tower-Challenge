@@ -14,13 +14,13 @@
   </append>
   
   <append xpath="//entity_class[starts-with(@name, 'zombieBusinessMan')]">
-    <drop event="Harvest" name="casinoCoin" tag="butcherHarvest" count="5,10" prob="0.10"/>
+    <drop event="Destroy" name="casinoCoin" tag="butcherHarvest" count="5,10" prob="0.10"/>
     <property name="DeadBodyHitPoints" value="1000"/>
 	<property name="TimeStayAfterDeath" value="1200"/>	
   </append>
   
   <append xpath="//entity_class[starts-with(@name, 'zombiePartyGirl')]">
-    <drop event="Harvest" name="oldCash" tag="butcherHarvest" count="5,10" prob="0.10"/>
+    <drop event="Destroy" name="oldCash" tag="butcherHarvest" count="5,10" prob="0.10"/>
     <property name="DeadBodyHitPoints" value="1000"/>
 	<property name="TimeStayAfterDeath" value="1200"/>	
   </append>
@@ -47,7 +47,13 @@
 	<drop event="Harvest" name="handgunsSkillMagazine" count="1" prob=".25" tag="GSHarvest3"/>
 	<drop event="Harvest" name="handgunsSkillMagazine" count="1" prob=".3" tag="GSHarvest4"/>
 	<drop event="Harvest" name="handgunsSkillMagazine" count="1" prob=".35" tag="GSHarvest5"/>
-	<drop event="Harvest" name="resourceAcid" tag="butcherHarvest" count="1" prob="0.10"/>
+	<drop event="Harvest" name="resourceAcid" tag="butcherHarvest" count="1" prob="0.25"/>
+    <property name="DeadBodyHitPoints" value="1000"/>
+	<property name="TimeStayAfterDeath" value="1200"/>	
+  </append>
+  
+  <append xpath="//entity_class[starts-with(@name, 'zombieMutated')]">
+	<drop event="Harvest" name="resourceAcid" tag="butcherHarvest" count="1" prob="0.25"/>
     <property name="DeadBodyHitPoints" value="1000"/>
 	<property name="TimeStayAfterDeath" value="1200"/>	
   </append>
