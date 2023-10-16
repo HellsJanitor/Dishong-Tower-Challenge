@@ -12,11 +12,23 @@
       <ingredient name="ammoArrowStone" count="1"/>
     </recipe>
 	
+	<recipe name="resourceFeather" count="1"  >
+      <ingredient name="ammoCrossbowBoltStone" count="1"/>
+    </recipe>
+	
+	<recipe name="resourceFeather" count="1"  >
+      <ingredient name="ammoCrossbowBoltIron" count="1"/>
+    </recipe>
+	
+	<recipe name="resourceFeather" count="1"  >
+      <ingredient name="ammoArrowIron" count="1"/>
+    </recipe>
+	
 	<recipe name="resourceAcid" count="1" craft_area="chemistryStation" craft_time="40" >
       <ingredient name="carBattery" count="1"/>
     </recipe>
 	
-	<recipe name="resourceAcid" count="1" craft_area="chemistryStation" craft_time="40" >
+	<recipe name="resourceAcid" count="1" craft_area="chemistryStation" craft_time="180" >
       <ingredient name="drinkJarBoiledWater" count="5"/>
 	  <ingredient name="resourceCoal" count="150"/>
 	  <ingredient name="resourceScrapIron" count="50"/>

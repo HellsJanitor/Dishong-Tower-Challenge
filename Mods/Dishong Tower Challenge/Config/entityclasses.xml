@@ -1,369 +1,153 @@
 ﻿<configs>
   <set xpath="//entity_class[@name='playerMale']/property[starts-with(@name, 'ItemsOnEnterGame')]/@value">Backpack</set>
-  
+    
   <append xpath="//entity_class[starts-with(@name, 'zombieUtilityWorker')]">
-    <!-- <drop event="Harvest" name="workstationSkillMagazine" tag="butcherHarvest" count="1" prob="0.10"/> -->
-	<drop event="Harvest" name="workstationSkillMagazine" count="1" prob=".1" tag="LPHarvest0,AEHarvest0"/>
-	<drop event="Harvest" name="workstationSkillMagazine" count="1" prob=".15" tag="LPHarvest1,AEHarvest1"/>
-	<drop event="Harvest" name="workstationSkillMagazine" count="1" prob=".2" tag="AEHarvest2"/>
-	<drop event="Harvest" name="workstationSkillMagazine" count="1" prob=".25" tag="LPHarvest2,AEHarvest3"/>
-	<drop event="Harvest" name="workstationSkillMagazine" count="1" prob=".3" tag="AEHarvest4"/>
-	<drop event="Harvest" name="workstationSkillMagazine" count="1" prob=".35" tag="LPHarvest3,AEHarvest5"/>
+    <property name="LootListOnDeath" value="UtilityWorkerLoot"/>
 	<property name="DeadBodyHitPoints" value="1000"/>
-	<property name="TimeStayAfterDeath" value="1200"/>	
+	<property name="TimeStayAfterDeath" value="1800"/>	
   </append>
   
   <append xpath="//entity_class[starts-with(@name, 'zombieBusinessMan')]">
-    <drop event="Destroy" name="casinoCoin" tag="butcherHarvest" count="5,10" prob="0.10"/>
+    <property name="LootListOnDeath" value="BusinessmanLoot"/>
     <property name="DeadBodyHitPoints" value="1000"/>
-	<property name="TimeStayAfterDeath" value="1200"/>	
+	<property name="TimeStayAfterDeath" value="1800"/>	
   </append>
   
   <append xpath="//entity_class[starts-with(@name, 'zombiePartyGirl')]">
-    <drop event="Destroy" name="oldCash" tag="butcherHarvest" count="5,10" prob="0.10"/>
+    <property name="LootListOnDeath" value="PartyGirlLoot"/>
     <property name="DeadBodyHitPoints" value="1000"/>
-	<property name="TimeStayAfterDeath" value="1200"/>	
+	<property name="TimeStayAfterDeath" value="1800"/>	
   </append>
   
   <append xpath="//entity_class[starts-with(@name, 'zombieWightFeral')]">
-    <drop event="Harvest" name="drinkJarGrandpasForgettingElixir" tag="butcherHarvest" count="1" prob="0.1"/>
-	<drop event="Harvest" name="questRewardT1SkillMagazineBundle" tag="butcherHarvest" count="1" prob="0.1"/>
+    <property name="LootListOnDeath" value="ZombieWightLoot"/>
     <property name="DeadBodyHitPoints" value="1000"/>
-	<property name="TimeStayAfterDeath" value="1200"/>	
+	<property name="TimeStayAfterDeath" value="1800"/>	
   </append>
   
   <append xpath="//entity_class[starts-with(@name, 'zombieFatCop')]">
-    <!-- <drop event="Harvest" name="clubsSkillMagazine" tag="butcherHarvest" count="1" prob="0.10"/> -->
-	<drop event="Harvest" name="clubsSkillMagazine" count="1" prob=".1" tag="PUPHarvest0"/>
-	<drop event="Harvest" name="clubsSkillMagazine" count="1" prob=".15" tag="PUPHarvest1"/>
-	<drop event="Harvest" name="clubsSkillMagazine" count="1" prob=".2" tag="PUPHarvest2"/>
-	<drop event="Harvest" name="clubsSkillMagazine" count="1" prob=".25" tag="PUPHarvest3"/>
-	<drop event="Harvest" name="clubsSkillMagazine" count="1" prob=".3" tag="PUPHarvest4"/>
-	<drop event="Harvest" name="clubsSkillMagazine" count="1" prob=".35" tag="PUPHarvest5"/>
-	<!-- <drop event="Harvest" name="handgunsSkillMagazine" tag="butcherHarvest" count="1" prob="0.10"/> -->
-	<drop event="Harvest" name="handgunsSkillMagazine" count="1" prob=".1" tag="GSHarvest0"/>
-	<drop event="Harvest" name="handgunsSkillMagazine" count="1" prob=".15" tag="GSHarvest1"/>
-	<drop event="Harvest" name="handgunsSkillMagazine" count="1" prob=".2" tag="GSHarvest2"/>
-	<drop event="Harvest" name="handgunsSkillMagazine" count="1" prob=".25" tag="GSHarvest3"/>
-	<drop event="Harvest" name="handgunsSkillMagazine" count="1" prob=".3" tag="GSHarvest4"/>
-	<drop event="Harvest" name="handgunsSkillMagazine" count="1" prob=".35" tag="GSHarvest5"/>
-	<drop event="Harvest" name="resourceAcid" tag="butcherHarvest" count="1" prob="0.25"/>
+    <property name="LootListOnDeath" value="FatCopLoot"/>
     <property name="DeadBodyHitPoints" value="1000"/>
-	<property name="TimeStayAfterDeath" value="1200"/>	
+	<property name="TimeStayAfterDeath" value="1800"/>	
   </append>
   
   <append xpath="//entity_class[starts-with(@name, 'zombieMutated')]">
-	<drop event="Harvest" name="resourceAcid" tag="butcherHarvest" count="1" prob="0.25"/>
+	<property name="LootListOnDeath" value="ZombieMutatedLoot"/>
     <property name="DeadBodyHitPoints" value="1000"/>
-	<property name="TimeStayAfterDeath" value="1200"/>	
+	<property name="TimeStayAfterDeath" value="1800"/>	
   </append>
   
   <append xpath="//entity_class[starts-with(@name, 'zombieJanitor')]">
-    <!-- <drop event="Harvest" name="harvestingToolsSkillMagazine" tag="butcherHarvest" count="1" prob="0.10"/> -->
-	<drop event="Harvest" name="harvestingToolsSkillMagazine" count="1" prob=".1" tag="M69Harvest0"/>
-	<drop event="Harvest" name="harvestingToolsSkillMagazine" count="1" prob=".15" tag="M69Harvest1"/>
-	<drop event="Harvest" name="harvestingToolsSkillMagazine" count="1" prob=".2" tag="M69Harvest2"/>
-	<drop event="Harvest" name="harvestingToolsSkillMagazine" count="1" prob=".25" tag="M69Harvest3"/>
-	<drop event="Harvest" name="harvestingToolsSkillMagazine" count="1" prob=".3" tag="M69Harvest4"/>
-	<drop event="Harvest" name="harvestingToolsSkillMagazine" count="1" prob=".35" tag="M69Harvest5"/>
-	<!-- <drop event="Harvest" name="repairToolsSkillMagazine" tag="butcherHarvest" count="1" prob="0.10"/> -->
-	<drop event="Harvest" name="repairToolsSkillMagazine" count="1" prob=".1" tag="AEHarvest0"/>
-	<drop event="Harvest" name="repairToolsSkillMagazine" count="1" prob=".15" tag="AEHarvest1"/>
-	<drop event="Harvest" name="repairToolsSkillMagazine" count="1" prob=".2" tag="AEHarvest2"/>
-	<drop event="Harvest" name="repairToolsSkillMagazine" count="1" prob=".25" tag="AEHarvest3"/>
-	<drop event="Harvest" name="repairToolsSkillMagazine" count="1" prob=".3" tag="AEHarvest4"/>
-	<drop event="Harvest" name="repairToolsSkillMagazine" count="1" prob=".35" tag="AEHarvest5"/>
-	<!-- <drop event="Harvest" name="salvageToolsSkillMagazine" tag="butcherHarvest" count="1" prob="0.10"/> -->
-	<drop event="Harvest" name="salvageToolsSkillMagazine" count="1" prob=".1" tag="SOHarvest0"/>
-	<drop event="Harvest" name="salvageToolsSkillMagazine" count="1" prob=".15" tag="SOHarvest1"/>
-	<drop event="Harvest" name="salvageToolsSkillMagazine" count="1" prob=".2" tag="SOHarvest2"/>
-	<drop event="Harvest" name="salvageToolsSkillMagazine" count="1" prob=".25" tag="SOHarvest3"/>
-	<drop event="Harvest" name="salvageToolsSkillMagazine" count="1" prob=".3" tag="SOHarvest4"/>
-	<drop event="Harvest" name="salvageToolsSkillMagazine" count="1" prob=".35" tag="SOHarvest5"/>
-	<!-- <drop event="Harvest" name="electricianSkillMagazine" tag="butcherHarvest" count="1" prob="0.10"/> -->
-	<drop event="Harvest" name="electricianSkillMagazine" count="1" prob=".1" tag="AEHarvest0"/>
-	<drop event="Harvest" name="electricianSkillMagazine" count="1" prob=".15" tag="AEHarvest1"/>
-	<drop event="Harvest" name="electricianSkillMagazine" count="1" prob=".2" tag="AEHarvest2"/>
-	<drop event="Harvest" name="electricianSkillMagazine" count="1" prob=".25" tag="AEHarvest3"/>
-	<drop event="Harvest" name="electricianSkillMagazine" count="1" prob=".3" tag="AEHarvest4"/>
-	<drop event="Harvest" name="electricianSkillMagazine" count="1" prob=".35" tag="AEHarvest5"/>
-	<!-- <drop event="Harvest" name="sledgehammersSkillMagazine" tag="butcherHarvest" count="1" prob="0.10"/> -->
-	<drop event="Harvest" name="sledgehammersSkillMagazine" count="1" prob=".1" tag="SKCHarvest0"/>
-	<drop event="Harvest" name="sledgehammersSkillMagazine" count="1" prob=".15" tag="SKCHarvest1"/>
-	<drop event="Harvest" name="sledgehammersSkillMagazine" count="1" prob=".2" tag="SKCHarvest2"/>
-	<drop event="Harvest" name="sledgehammersSkillMagazine" count="1" prob=".25" tag="SKCHarvest3"/>
-	<drop event="Harvest" name="sledgehammersSkillMagazine" count="1" prob=".3" tag="SKCHarvest4"/>
-	<drop event="Harvest" name="sledgehammersSkillMagazine" count="1" prob=".35" tag="SKCHarvest5"/>
+	<property name="LootListOnDeath" value="JanitorLoot"/>
 	<property name="DeadBodyHitPoints" value="1000"/>
-	<property name="TimeStayAfterDeath" value="1200"/>	
+	<property name="TimeStayAfterDeath" value="1800"/>	
   </append>
   
   <append xpath="//entity_class[starts-with(@name, 'zombieSkateboarder')]">
-    <!-- <drop event="Harvest" name="knucklesSkillMagazine" tag="butcherHarvest" count="1" prob="0.10"/> -->
-	<drop event="Harvest" name="knucklesSkillMagazine" count="1" prob=".1" tag="BRHarvest0"/>
-	<drop event="Harvest" name="knucklesSkillMagazine" count="1" prob=".15" tag="BRHarvest1"/>
-	<drop event="Harvest" name="knucklesSkillMagazine" count="1" prob=".2" tag="BRHarvest2"/>
-	<drop event="Harvest" name="knucklesSkillMagazine" count="1" prob=".25" tag="BRHarvest3"/>
-	<drop event="Harvest" name="knucklesSkillMagazine" count="1" prob=".3" tag="BRHarvest4"/>
-	<drop event="Harvest" name="knucklesSkillMagazine" count="1" prob=".35" tag="BRHarvest5"/>
-	<!-- <drop event="Harvest" name="bladesSkillMagazine" tag="butcherHarvest" count="1" prob="0.10"/> -->
-	<drop event="Harvest" name="bladesSkillMagazine" count="1" prob=".1" tag="DCHarvest0"/>
-	<drop event="Harvest" name="bladesSkillMagazine" count="1" prob=".15" tag="DCHarvest1"/>
-	<drop event="Harvest" name="bladesSkillMagazine" count="1" prob=".2" tag="DCHarvest2"/>
-	<drop event="Harvest" name="bladesSkillMagazine" count="1" prob=".25" tag="DCHarvest3"/>
-	<drop event="Harvest" name="bladesSkillMagazine" count="1" prob=".3" tag="DCHarvest4"/>
-	<drop event="Harvest" name="bladesSkillMagazine" count="1" prob=".35" tag="DCHarvest5"/>
-	<!-- <drop event="Harvest" name="shotgunsSkillMagazine" tag="butcherHarvest" count="1" prob="0.10"/> -->
-	<drop event="Harvest" name="shotgunsSkillMagazine" count="1" prob=".1" tag="BSHarvest0"/>
-	<drop event="Harvest" name="shotgunsSkillMagazine" count="1" prob=".15" tag="BSHarvest1"/>
-	<drop event="Harvest" name="shotgunsSkillMagazine" count="1" prob=".2" tag="BSHarvest2"/>
-	<drop event="Harvest" name="shotgunsSkillMagazine" count="1" prob=".25" tag="BSHarvest3"/>
-	<drop event="Harvest" name="shotgunsSkillMagazine" count="1" prob=".3" tag="BSHarvest4"/>
-	<drop event="Harvest" name="shotgunsSkillMagazine" count="1" prob=".35" tag="BSHarvest5"/>
+    <property name="LootListOnDeath" value="ThugLoot"/>
 	<property name="DeadBodyHitPoints" value="1000"/>
-	<property name="TimeStayAfterDeath" value="1200"/>	
+	<property name="TimeStayAfterDeath" value="1800"/>	
   </append>
   
   <append xpath="//entity_class[starts-with(@name, 'zombieSoldier')]">
-    <!-- <drop event="Harvest" name="riflesSkillMagazine" tag="butcherHarvest" count="1" prob=".1"/> -->
-	<drop event="Harvest" name="riflesSkillMagazine" count="1" prob=".1" tag="DEHarvest0"/>
-	<drop event="Harvest" name="riflesSkillMagazine" count="1" prob=".15" tag="DEHarvest1"/>
-	<drop event="Harvest" name="riflesSkillMagazine" count="1" prob=".2" tag="DEHarvest2"/>
-	<drop event="Harvest" name="riflesSkillMagazine" count="1" prob=".25" tag="DEHarvest3"/>
-	<drop event="Harvest" name="riflesSkillMagazine" count="1" prob=".3" tag="DEHarvest4"/>
-	<drop event="Harvest" name="riflesSkillMagazine" count="1" prob=".35" tag="DEHarvest5"/>
-	<!-- <drop event="Harvest" name="machineGunsSkillMagazine" tag="butcherHarvest" count="1" prob=".1"/> -->
-	<drop event="Harvest" name="machineGunsSkillMagazine" count="1" prob=".1" tag="MGHarvest0"/>
-	<drop event="Harvest" name="machineGunsSkillMagazine" count="1" prob=".15" tag="MGHarvest1"/>
-	<drop event="Harvest" name="machineGunsSkillMagazine" count="1" prob=".2" tag="MGHarvest2"/>
-	<drop event="Harvest" name="machineGunsSkillMagazine" count="1" prob=".25" tag="MGHarvest3"/>
-	<drop event="Harvest" name="machineGunsSkillMagazine" count="1" prob=".3" tag="MGHarvest4"/>
-	<drop event="Harvest" name="machineGunsSkillMagazine" count="1" prob=".35" tag="MGHarvest5"/>
-	<!-- <drop event="Harvest" name="explosivesSkillMagazine" tag="butcherHarvest" count="1" prob=".1"/> -->
-	<drop event="Harvest" name="explosivesSkillMagazine" count="1" prob=".1" tag="DEMHarvest0"/>
-	<drop event="Harvest" name="explosivesSkillMagazine" count="1" prob=".15" tag="DEMHarvest1"/>
-	<drop event="Harvest" name="explosivesSkillMagazine" count="1" prob=".2" tag="DEMHarvest2"/>
-	<drop event="Harvest" name="explosivesSkillMagazine" count="1" prob=".25" tag="DEMHarvest3"/>
-	<drop event="Harvest" name="explosivesSkillMagazine" count="1" prob=".3" tag="DEMHarvest4"/>
-	<drop event="Harvest" name="explosivesSkillMagazine" count="1" prob=".35" tag="DEMHarvest5"/>
-	<!-- <drop event="Harvest" name="armorSkillMagazine" tag="butcherHarvest" count="1" prob=".1"/> -->
-	<drop event="Harvest" name="armorSkillMagazine" count="1" prob=".1" tag="HAHarvest0,LAHarvest0"/>
-	<drop event="Harvest" name="armorSkillMagazine" count="1" prob=".2" tag="HAHarvest1,LAHarvest1"/>
-	<drop event="Harvest" name="armorSkillMagazine" count="1" prob=".25" tag="HAHarvest2,LAHarvest2"/>
-	<drop event="Harvest" name="armorSkillMagazine" count="1" prob=".3" tag="HAHarvest3,LAHarvest3"/>
-	<drop event="Harvest" name="armorSkillMagazine" count="1" prob=".35" tag="HAHarvest4,LAHarvest4"/>
-	<!-- <drop event="Harvest" name="armorSkillMagazine" count="1" prob=".35" tag="HAHarvest5,LAHarvest5"/> -->
+    <property name="LootListOnDeath" value="SoldierLoot"/>
 	<property name="DeadBodyHitPoints" value="1000"/>
-	<property name="TimeStayAfterDeath" value="1200"/>	
+	<property name="TimeStayAfterDeath" value="1800"/>	
   </append>
   
   <append xpath="//entity_class[starts-with(@name, 'zombieDarlene')]">
-    <!-- <drop event="Harvest" name="foodSkillMagazine" tag="butcherHarvest" count="1" prob="0.10"/> -->
-	<drop event="Harvest" name="foodSkillMagazine" count="1" prob=".1" tag="MCHarvest0"/>
-	<drop event="Harvest" name="foodSkillMagazine" count="1" prob=".15" tag="MCHarvest1"/>
-	<drop event="Harvest" name="foodSkillMagazine" count="1" prob=".25" tag="MCHarvest2"/>
-	<drop event="Harvest" name="foodSkillMagazine" count="1" prob=".35" tag="MCHarvest3"/>
-	<!-- <drop event="Harvest" name="foodSkillMagazine" count="1" prob=".3" tag="MCHarvest4"/>
-	<drop event="Harvest" name="foodSkillMagazine" count="1" prob=".35" tag="MCHarvest5"/> -->
+	<property name="LootListOnDeath" value="ZombieFemaleLoot"/>
 	<property name="DeadBodyHitPoints" value="1000"/>
-	<property name="TimeStayAfterDeath" value="1200"/>	
+	<property name="TimeStayAfterDeath" value="1800"/>	
   </append>
   
   <append xpath="//entity_class[starts-with(@name, 'zombieMarlene')]">
-    <!-- <drop event="Harvest" name="foodSkillMagazine" tag="butcherHarvest" count="1" prob="0.10"/> -->
-	<drop event="Harvest" name="foodSkillMagazine" count="1" prob=".1" tag="MCHarvest0"/>
-	<drop event="Harvest" name="foodSkillMagazine" count="1" prob=".15" tag="MCHarvest1"/>
-	<drop event="Harvest" name="foodSkillMagazine" count="1" prob=".25" tag="MCHarvest2"/>
-	<drop event="Harvest" name="foodSkillMagazine" count="1" prob=".35" tag="MCHarvest3"/>
-	<!-- <drop event="Harvest" name="foodSkillMagazine" count="1" prob=".3" tag="MCHarvest4"/>
-	<drop event="Harvest" name="foodSkillMagazine" count="1" prob=".35" tag="MCHarvest5"/> -->
+	<property name="LootListOnDeath" value="ZombieFemaleLoot"/>
 	<property name="DeadBodyHitPoints" value="1000"/>
-	<property name="TimeStayAfterDeath" value="1200"/>	
+	<property name="TimeStayAfterDeath" value="1800"/>	
   </append>
   
   <append xpath="//entity_class[starts-with(@name, 'zombieArlene')]">
-    <!-- <drop event="Harvest" name="foodSkillMagazine" tag="butcherHarvest" count="1" prob="0.10"/> -->
-	<drop event="Harvest" name="foodSkillMagazine" count="1" prob=".1" tag="MCHarvest0"/>
-	<drop event="Harvest" name="foodSkillMagazine" count="1" prob=".15" tag="MCHarvest1"/>
-	<drop event="Harvest" name="foodSkillMagazine" count="1" prob=".2" tag="MCHarvest2"/>
-	<drop event="Harvest" name="foodSkillMagazine" count="1" prob=".25" tag="MCHarvest3"/>
-	<!-- <drop event="Harvest" name="foodSkillMagazine" count="1" prob=".3" tag="MCHarvest4"/>
-	<drop event="Harvest" name="foodSkillMagazine" count="1" prob=".35" tag="MCHarvest5"/> -->
+    <property name="LootListOnDeath" value="ZombieFemaleLoot"/>
 	<property name="DeadBodyHitPoints" value="1000"/>
-	<property name="TimeStayAfterDeath" value="1200"/>	
+	<property name="TimeStayAfterDeath" value="1800"/>	
   </append>
   
   <append xpath="//entity_class[starts-with(@name, 'zombieTomClark')]">
-    <!-- <drop event="Harvest" name="roboticsSkillMagazine" tag="butcherHarvest" count="1" prob="0.10"/> -->
-	<drop event="Harvest" name="roboticsSkillMagazine" count="1" prob=".1" tag="JTHarvest0,ELHarvest0"/>
-	<drop event="Harvest" name="roboticsSkillMagazine" count="1" prob=".15" tag="JTHarvest1,ELHarvest1"/>
-	<drop event="Harvest" name="roboticsSkillMagazine" count="1" prob=".2" tag="JTHarvest2,ELHarvest2"/>
-	<drop event="Harvest" name="roboticsSkillMagazine" count="1" prob=".25" tag="JTHarvest3,ELHarvest3"/>
-	<drop event="Harvest" name="roboticsSkillMagazine" count="1" prob=".3" tag="JTHarvest4,ELHarvest4"/>
-	<drop event="Harvest" name="roboticsSkillMagazine" count="1" prob=".35" tag="JTHarvest5,ELHarvest5"/>
-	<!-- <drop event="Harvest" name="trapsSkillMagazine" tag="butcherHarvest" count="1" prob="0.10"/> -->
-	<drop event="Harvest" name="trapsSkillMagazine" count="1" prob=".1" tag="AEHarvest0"/>
-	<drop event="Harvest" name="trapsSkillMagazine" count="1" prob=".15" tag="AEHarvest1"/>
-	<drop event="Harvest" name="trapsSkillMagazine" count="1" prob=".2" tag="AEHarvest2"/>
-	<drop event="Harvest" name="trapsSkillMagazine" count="1" prob=".25" tag="AEHarvest3"/>
-	<drop event="Harvest" name="trapsSkillMagazine" count="1" prob=".3" tag="AEHarvest4"/>
-	<drop event="Harvest" name="trapsSkillMagazine" count="1" prob=".35" tag="AEHarvest5"/>
+	<property name="LootListOnDeath" value="SteveandTomLoot"/>
 	<property name="DeadBodyHitPoints" value="1000"/>
-	<property name="TimeStayAfterDeath" value="1200"/>	
+	<property name="TimeStayAfterDeath" value="1800"/>	
   </append>
   
   <append xpath="//entity_class[starts-with(@name, 'zombieSteve') and not (contains(@name, 'zombieSteveCrawler'))]">
-     <!-- <drop event="Harvest" name="roboticsSkillMagazine" tag="butcherHarvest" count="1" prob="0.10"/> -->
-	<drop event="Harvest" name="roboticsSkillMagazine" count="1" prob=".1" tag="JTHarvest0,ELHarvest0"/>
-	<drop event="Harvest" name="roboticsSkillMagazine" count="1" prob=".15" tag="JTHarvest1,ELHarvest1"/>
-	<drop event="Harvest" name="roboticsSkillMagazine" count="1" prob=".2" tag="JTHarvest2,ELHarvest2"/>
-	<drop event="Harvest" name="roboticsSkillMagazine" count="1" prob=".25" tag="JTHarvest3,ELHarvest3"/>
-	<drop event="Harvest" name="roboticsSkillMagazine" count="1" prob=".3" tag="JTHarvest4,ELHarvest4"/>
-	<drop event="Harvest" name="roboticsSkillMagazine" count="1" prob=".35" tag="JTHarvest5,ELHarvest5"/>
-	<!-- <drop event="Harvest" name="trapsSkillMagazine" tag="butcherHarvest" count="1" prob="0.10"/> -->
-	<drop event="Harvest" name="trapsSkillMagazine" count="1" prob=".1" tag="AEHarvest0"/>
-	<drop event="Harvest" name="trapsSkillMagazine" count="1" prob=".15" tag="AEHarvest1"/>
-	<drop event="Harvest" name="trapsSkillMagazine" count="1" prob=".2" tag="AEHarvest2"/>
-	<drop event="Harvest" name="trapsSkillMagazine" count="1" prob=".25" tag="AEHarvest3"/>
-	<drop event="Harvest" name="trapsSkillMagazine" count="1" prob=".3" tag="AEHarvest4"/>
-	<drop event="Harvest" name="trapsSkillMagazine" count="1" prob=".35" tag="AEHarvest5"/>
+	<property name="LootListOnDeath" value="SteveandTomLoot"/>
 	<property name="DeadBodyHitPoints" value="1000"/>
-	<property name="TimeStayAfterDeath" value="1200"/>	
+	<property name="TimeStayAfterDeath" value="1800"/>	
   </append>
   
   <append xpath="//entity_class[starts-with(@name, 'zombieBoe')]">
-    <!-- <drop event="Harvest" name="spearsSkillMagazine" tag="butcherHarvest" count="1" prob="0.10"/> -->
-	<drop event="Harvest" name="spearsSkillMagazine" count="1" prob=".1" tag="JMHarvest0"/>
-	<drop event="Harvest" name="spearsSkillMagazine" count="1" prob=".15" tag="JMHarvest1"/>
-	<drop event="Harvest" name="spearsSkillMagazine" count="1" prob=".2" tag="JMHarvest2"/>
-	<drop event="Harvest" name="spearsSkillMagazine" count="1" prob=".25" tag="JMHarvest3"/>
-	<drop event="Harvest" name="spearsSkillMagazine" count="1" prob=".3" tag="JMHarvest4"/>
-	<drop event="Harvest" name="spearsSkillMagazine" count="1" prob=".35" tag="JMHarvest5"/>
-	<!-- <drop event="Harvest" name="bowsSkillMagazine" tag="butcherHarvest" count="1" prob="0.10"/> -->
-	<drop event="Harvest" name="bowsSkillMagazine" count="1" prob=".1" tag="ARHarvest0"/>
-	<drop event="Harvest" name="bowsSkillMagazine" count="1" prob=".15" tag="ARHarvest1"/>
-	<drop event="Harvest" name="bowsSkillMagazine" count="1" prob=".2" tag="ARHarvest2"/>
-	<drop event="Harvest" name="bowsSkillMagazine" count="1" prob=".25" tag="ARHarvest3"/>
-	<drop event="Harvest" name="bowsSkillMagazine" count="1" prob=".3" tag="ARHarvest4"/>
-	<drop event="Harvest" name="bowsSkillMagazine" count="1" prob=".35" tag="ARHarvest5"/>
+    <property name="LootListOnDeath" value="ZombieMaleLoot"/>
 	<property name="DeadBodyHitPoints" value="1000"/>
-	<property name="TimeStayAfterDeath" value="1200"/>	
+	<property name="TimeStayAfterDeath" value="1800"/>	
   </append>
   
   <append xpath="//entity_class[starts-with(@name, 'zombieJoe')]">
-    <!-- <drop event="Harvest" name="spearsSkillMagazine" tag="butcherHarvest" count="1" prob="0.10"/> -->
-	<drop event="Harvest" name="spearsSkillMagazine" count="1" prob=".1" tag="JMHarvest0"/>
-	<drop event="Harvest" name="spearsSkillMagazine" count="1" prob=".15" tag="JMHarvest1"/>
-	<drop event="Harvest" name="spearsSkillMagazine" count="1" prob=".2" tag="JMHarvest2"/>
-	<drop event="Harvest" name="spearsSkillMagazine" count="1" prob=".25" tag="JMHarvest3"/>
-	<drop event="Harvest" name="spearsSkillMagazine" count="1" prob=".3" tag="JMHarvest4"/>
-	<drop event="Harvest" name="spearsSkillMagazine" count="1" prob=".35" tag="JMHarvest5"/>
-	<!-- <drop event="Harvest" name="bowsSkillMagazine" tag="butcherHarvest" count="1" prob="0.10"/> -->
-	<drop event="Harvest" name="bowsSkillMagazine" count="1" prob=".1" tag="ARHarvest0"/>
-	<drop event="Harvest" name="bowsSkillMagazine" count="1" prob=".15" tag="ARHarvest1"/>
-	<drop event="Harvest" name="bowsSkillMagazine" count="1" prob=".2" tag="ARHarvest2"/>
-	<drop event="Harvest" name="bowsSkillMagazine" count="1" prob=".25" tag="ARHarvest3"/>
-	<drop event="Harvest" name="bowsSkillMagazine" count="1" prob=".3" tag="ARHarvest4"/>
-	<drop event="Harvest" name="bowsSkillMagazine" count="1" prob=".35" tag="ARHarvest5"/>
+    <property name="LootListOnDeath" value="ZombieMaleLoot"/>
 	<property name="DeadBodyHitPoints" value="1000"/>
-	<property name="TimeStayAfterDeath" value="1200"/>	
+	<property name="TimeStayAfterDeath" value="1800"/>	
   </append>
   
   <append xpath="//entity_class[starts-with(@name, 'zombieYo')]">
-    <!-- <drop event="Harvest" name="spearsSkillMagazine" tag="butcherHarvest" count="1" prob="0.10"/> -->
-	<drop event="Harvest" name="spearsSkillMagazine" count="1" prob=".1" tag="JMHarvest0"/>
-	<drop event="Harvest" name="spearsSkillMagazine" count="1" prob=".15" tag="JMHarvest1"/>
-	<drop event="Harvest" name="spearsSkillMagazine" count="1" prob=".2" tag="JMHarvest2"/>
-	<drop event="Harvest" name="spearsSkillMagazine" count="1" prob=".25" tag="JMHarvest3"/>
-	<drop event="Harvest" name="spearsSkillMagazine" count="1" prob=".3" tag="JMHarvest4"/>
-	<drop event="Harvest" name="spearsSkillMagazine" count="1" prob=".35" tag="JMHarvest5"/>
-	<!-- <drop event="Harvest" name="bowsSkillMagazine" tag="butcherHarvest" count="1" prob="0.10"/> -->
-	<drop event="Harvest" name="bowsSkillMagazine" count="1" prob=".1" tag="ARHarvest0"/>
-	<drop event="Harvest" name="bowsSkillMagazine" count="1" prob=".15" tag="ARHarvest1"/>
-	<drop event="Harvest" name="bowsSkillMagazine" count="1" prob=".2" tag="ARHarvest2"/>
-	<drop event="Harvest" name="bowsSkillMagazine" count="1" prob=".25" tag="ARHarvest3"/>
-	<drop event="Harvest" name="bowsSkillMagazine" count="1" prob=".3" tag="ARHarvest4"/>
-	<drop event="Harvest" name="bowsSkillMagazine" count="1" prob=".35" tag="ARHarvest5"/>
+	<property name="LootListOnDeath" value="ZombieMaleLoot"/>
 	<property name="DeadBodyHitPoints" value="1000"/>
-	<property name="TimeStayAfterDeath" value="1200"/>	
+	<property name="TimeStayAfterDeath" value="1800"/>	
   </append>
   
   <append xpath="//entity_class[starts-with(@name, 'zombieFemaleFat')]">
-    <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="4"/>
-    <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3"/>
-	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="1" prob="0.10"/>
+    <property name="LootListOnDeath" value="FatZombieLoot"/>
     <property name="DeadBodyHitPoints" value="1000"/>
-	<property name="TimeStayAfterDeath" value="1200"/>	
+	<property name="TimeStayAfterDeath" value="1800"/>	
   </append>
 
   <append xpath="//entity_class[starts-with(@name, 'zombieFatHawaiian')]">
-    <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="4"/>
-    <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3"/>
-	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="1" prob="0.10"/>
+    <property name="LootListOnDeath" value="FatZombieLoot"/>
     <property name="DeadBodyHitPoints" value="1000"/>
-	<property name="TimeStayAfterDeath" value="1200"/>
+	<property name="TimeStayAfterDeath" value="1800"/>
   </append>
 
   <append xpath="//entity_class[starts-with(@name, 'zombieMoe')]">
-    <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="4"/>
-    <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3"/>
+    <property name="LootListOnDeath" value="FatZombieLoot"/>
     <property name="DeadBodyHitPoints" value="1000"/>
-	<property name="TimeStayAfterDeath" value="1200"/>
+	<property name="TimeStayAfterDeath" value="1800"/>
   </append>
   
   <append xpath="//entity_class[starts-with(@name, 'zombieNurse')]">
-    <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="4"/>
-    <drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="5"/>
-	<drop event="Harvest" name="drugAntibiotics" tag="butcherHarvest" count="1" prob="0.1"/>
-	<!-- <drop event="Harvest" name="medicalSkillMagazine" tag="butcherHarvest" count="1" prob="0.10"/> -->
-	<drop event="Harvest" name="medicalSkillMagazine" count="1" prob=".1" tag="PHHarvest0"/>
-	<drop event="Harvest" name="medicalSkillMagazine" count="1" prob=".15" tag="PHHarvest1"/>
-	<drop event="Harvest" name="medicalSkillMagazine" count="1" prob=".2" tag="PHHarvest2"/>
-	<drop event="Harvest" name="medicalSkillMagazine" count="1" prob=".25" tag="PHHarvest3"/>
-	<drop event="Harvest" name="medicalSkillMagazine" count="1" prob=".3" tag="PHHarvest4"/>
-	<drop event="Harvest" name="medicalSkillMagazine" count="1" prob=".35" tag="PHHarvest5"/>
+    <property name="LootListOnDeath" value="NurseLoot"/>
 	<property name="DeadBodyHitPoints" value="1000"/>
-	<property name="TimeStayAfterDeath" value="1200"/>
+	<property name="TimeStayAfterDeath" value="1800"/>
   </append>
 
   <append xpath="//entity_class[starts-with(@name, 'zombieLab')]">
-    <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="4"/>
-    <drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="5"/>
-	<drop event="Harvest" name="toolBeaker" tag="butcherHarvest" count="1" prob="0.1"/>
-	<!-- <drop event="Harvest" name="medicalSkillMagazine" tag="butcherHarvest" count="1" prob="0.10"/> -->
-	<drop event="Harvest" name="medicalSkillMagazine" count="1" prob=".1" tag="PHHarvest0"/>
-	<drop event="Harvest" name="medicalSkillMagazine" count="1" prob=".15" tag="PHHarvest1"/>
-	<drop event="Harvest" name="medicalSkillMagazine" count="1" prob=".2" tag="PHHarvest2"/>
-	<drop event="Harvest" name="medicalSkillMagazine" count="1" prob=".25" tag="PHHarvest3"/>
-	<drop event="Harvest" name="medicalSkillMagazine" count="1" prob=".3" tag="PHHarvest4"/>
-	<drop event="Harvest" name="medicalSkillMagazine" count="1" prob=".35" tag="PHHarvest5"/>
+    <property name="LootListOnDeath" value="LabWorkerLoot"/>
 	<property name="DeadBodyHitPoints" value="1000"/>
-	<property name="TimeStayAfterDeath" value="1200"/>
+	<property name="TimeStayAfterDeath" value="1800"/>
   </append>
   
   <append xpath="//entity_class[starts-with(@name, 'zombieMaleHazmat')]">
-    <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="4"/>
-    <drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="5"/>
+    <property name="LootListOnDeath" value="HazmatLoot"/>
     <property name="DeadBodyHitPoints" value="1000"/>
-	<property name="TimeStayAfterDeath" value="1200"/>
+	<property name="TimeStayAfterDeath" value="1800"/>
   </append>
   
   <append xpath="//entity_class[starts-with(@name, 'zombieLumberjack')]">
-    <drop event="Harvest" name="resourceSnowBall" tag="butcherHarvest" count="5"/>
+    <property name="LootListOnDeath" value="LumberjackLoot"/>
     <property name="DeadBodyHitPoints" value="1000"/>
-	<property name="TimeStayAfterDeath" value="1200"/>
+	<property name="TimeStayAfterDeath" value="1800"/>
   </append>
   
   <append xpath="//entity_class[starts-with(@name, 'zombieBiker')]">
-    <drop event="Harvest" name="resourceOil" tag="butcherHarvest" count="4"/>	
-	<!-- <drop event="Harvest" name="vehiclesSkillMagazine" tag="butcherHarvest" count="1" prob="1"/> -->
-	<drop event="Harvest" name="vehiclesSkillMagazine" count="1" prob="1" tag="GMHarvest0"/>
-	<drop event="Harvest" name="vehiclesSkillMagazine" count="2" prob="1" tag="GMHarvest1"/>
-	<drop event="Harvest" name="vehiclesSkillMagazine" count="3" prob="1" tag="GMHarvest2"/>
-	<drop event="Harvest" name="vehiclesSkillMagazine" count="4" prob="1" tag="GMHarvest3"/>
-	<drop event="Harvest" name="vehiclesSkillMagazine" count="5" prob="1" tag="GMHarvest4"/>
-	<drop event="Harvest" name="vehiclesSkillMagazine" count="5,6" prob="1" tag="GMHarvest5"/>
+	<property name="LootListOnDeath" value="BikerLoot"/>	
 	<property name="DeadBodyHitPoints" value="1000"/>
-	<property name="TimeStayAfterDeath" value="1200"/>
+	<property name="TimeStayAfterDeath" value="1800"/>
   </append>
 </configs>

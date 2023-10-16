@@ -57,5 +57,177 @@
 		<item name="resourceWaterFilter" loot_prob_template="guaranteed"/>
 	</insertbefore>
 	
+	<!-- zombie specific loot -->
+	<insertafter xpath="//lootcontainers//lootgroup[@name='groupSchematicsAll']">		
+		<lootgroup name="groupZombieWightLoot" count="all">
+			<item name="drinkJarGrandpasForgettingElixir" prob=".1" force_prob="true" />
+			<item name="questRewardT1SkillMagazineBundle" prob=".1" force_prob="true" />
+		</lootgroup>
+		
+		<lootgroup name="groupSteveandTomLoot" count="all">
+			<item name="roboticsSkillMagazineDT" prob=".1" force_prob="true" tags="RoLoot"/>
+			<item name="trapsSkillMagazineDT" prob=".1" force_prob="true" tags="TrLoot"/>
+		</lootgroup>
+		
+		<lootgroup name="groupZombieMaleLoot" count="all">
+			<item name="bowsSkillMagazineDT" prob=".1" force_prob="true" tags="BowLoot"/>
+			<item name="spearsSkillMagazineDT" prob=".1" force_prob="true" tags="SpLoot"/>
+		</lootgroup>
+		
+		<lootgroup name="groupZombieFemaleLoot" count="all">
+			<item name="foodSkillMagazineDT" prob=".1" force_prob="true" tags="FoodLoot"/>
+		</lootgroup>
+		
+		<lootgroup name="groupBusinessmanLoot" count="all">
+			<item name="casinoCoin" count="5,10" prob=".1" force_prob="true" tags="FoodLoot"/>
+		</lootgroup>
+		
+		<lootgroup name="groupPartyGirlLoot" count="all">
+			<item name="oldCash" count="5,10" prob=".1" force_prob="true" tags="FoodLoot"/>
+		</lootgroup>
+		
+		<lootgroup name="groupSoldierLoot" count="all">
+			<item name="armorSkillMagazineDT" prob=".1" force_prob="true" tags="ArLoot"/>
+			<item name="riflesSkillMagazineDT" prob=".1" force_prob="true" tags="RiLoot"/>
+			<item name="machineGunsSkillMagazineDT" prob=".1" force_prob="true" tags="MGLoot"/>
+			<item name="explosivesSkillMagazineDT" prob=".1" force_prob="true" tags="EXLoot"/>
+		</lootgroup>
+		
+		<lootgroup name="groupThugLoot" count="all">
+			<item name="bladesSkillMagazineDT" prob=".1" force_prob="true" tags="BlLoot"/>
+			<item name="shotgunsSkillMagazineDT" prob=".1" force_prob="true" tags="SGLoot"/>
+			<item name="knucklesSkillMagazineDT" prob=".1" force_prob="true" tags="KnLoot"/>
+		</lootgroup>
+		
+		<lootgroup name="groupJanitorLoot" count="all">
+			<item name="harvestingToolsSkillMagazineDT" prob=".1" force_prob="true" tags="HTLoot"/>
+			<item name="repairToolsSkillMagazineDT" prob=".1" force_prob="true" tags="RTLoot"/>
+			<item name="salvageToolsSkillMagazineDT" prob=".1" force_prob="true" tags="STLoot"/>
+			<item name="sledgehammersSkillMagazineDT" prob=".1" force_prob="true" tags="SHLoot"/>
+			<item name="electricianSkillMagazineDT" prob=".1" force_prob="true" tags="ElLoot"/>
+		</lootgroup>
+		
+		<lootgroup name="groupFatCopLoot" count="all">
+			<item name="clubsSkillMagazineDT" prob=".1" force_prob="true" tags="ClLoot"/>
+			<item name="handgunsSkillMagazineDT" prob=".1" force_prob="true" tags="HGLoot"/>
+			<item name="resourceAcid" count="1" prob=".1" force_prob="true"/>
+		</lootgroup>
+		
+		<lootgroup name="groupBikerLoot" count="all">
+			<item name="vehiclesSkillMagazineDT" prob="1" force_prob="true" tags="GMLoot"/>
+			<item name="resourceOil" count="4" />
+		</lootgroup>
+		
+		<lootgroup name="groupLabWorkerLoot" count="all">
+			<item name="medicalSkillMagazineDT" prob=".1" force_prob="true" tags="MedLoot"/>
+			<item name="resourceBone" count="4"/>
+			<item name="resourcePotassiumNitratePowder" count="5"/>
+			<item name="toolBeaker" count="1" prob=".1" force_prob="true"/>
+		</lootgroup>
+		
+		<lootgroup name="groupNurseLoot" count="all">
+			<item name="medicalSkillMagazineDT" prob=".1" force_prob="true" tags="MedLoot"/>
+			<item name="resourceBone" count="4"/>
+			<item name="resourcePotassiumNitratePowder" count="5"/>
+			<item name="drugAntibioticsDT" count="1" prob=".1" force_prob="true"/>
+		</lootgroup>
+		
+		<lootgroup name="groupUtilityWorkerLoot" count="all">
+			<item name="workstationSkillMagazineDT" prob=".1" force_prob="true" tags="WSLoot"/>
+		</lootgroup>
+		
+		<lootgroup name="groupFatZombieLoot" count="all">
+			<item name="resourceBone" count="4"/>
+			<item name="foodRottingFlesh" count="3"/>
+			<item name="resourceAnimalFat" prob=".1" force_prob="true"/>
+		</lootgroup>
+		
+		<lootgroup name="groupHazmatLoot" count="all">
+			<item name="resourceBone" count="4"/>
+			<item name="resourcePotassiumNitratePowder" count="5"/>
+		</lootgroup>
+		
+		<lootgroup name="groupLumberjackLoot" count="all">
+			<item name="resourceSnowBall" count="5"/>
+		</lootgroup>
+		
+		<lootgroup name="groupMutatedLoot" count="all">
+			<item name="resourceAcid" count="1" prob=".1" force_prob="true"/>
+		</lootgroup>	
+	</insertafter>
 	
+	<!-- zombie specific loot containers -->
+	<insertafter xpath="//lootcontainers//lootcontainer[@name='twitch_home_run_rewardsT5']">
+		<lootcontainer name="ZombieMutatedLoot" count="1" size="5,1" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
+			<item group="groupMutatedLoot"/>
+		</lootcontainer>
+		
+		<lootcontainer name="LumberjackLoot" count="1" size="5,1" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
+			<item group="groupLumberjackLoot"/>
+		</lootcontainer>
+		
+		<lootcontainer name="HazmatLoot" count="1" size="5,1" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
+			<item group="groupHazmatLoot"/>
+		</lootcontainer>
+		
+		<lootcontainer name="FatZombieLoot" count="1" size="5,1" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
+			<item group="groupFatZombieLoot"/>
+		</lootcontainer>
+	
+		<lootcontainer name="ZombieWightLoot" count="1" size="5,1" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
+			<item group="groupZombieWightLoot"/>
+		</lootcontainer>
+	
+		<lootcontainer name="BusinessmanLoot" count="1" size="5,1" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
+			<item group="groupBusinessmanLoot"/>
+		</lootcontainer>
+		
+		<lootcontainer name="PartyGirlLoot" count="1" size="5,1" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
+			<item group="groupPartyGirlLoot"/>
+		</lootcontainer>
+	
+		<lootcontainer name="UtilityWorkerLoot" count="1" size="5,1" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
+			<item group="groupUtilityWorkerLoot"/>
+		</lootcontainer>
+		
+		<lootcontainer name="JanitorLoot" count="1" size="5,1" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
+			<item group="groupJanitorLoot"/>
+		</lootcontainer>
+		
+		<lootcontainer name="NurseLoot" count="1" size="5,1" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
+			<item group="groupNurseLoot"/>			
+		</lootcontainer>
+		
+		<lootcontainer name="LabWorkerLoot" count="1" size="5,1" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
+			<item group="groupLabWorkerLoot"/>			
+		</lootcontainer>
+		
+		<lootcontainer name="BikerLoot" count="1" size="5,1" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" loot_quality_template="qualBaseTemplate" destroy_on_close="false">
+			<item group="groupBikerLoot" />
+		</lootcontainer>
+		
+		<lootcontainer name="FatCopLoot" count="1" size="5,1" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
+			<item group="groupFatCopLoot"/>			
+		</lootcontainer>
+		
+		<lootcontainer name="SoldierLoot" count="1" size="5,1" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
+			<item group="groupSoldierLoot"/>
+		</lootcontainer>
+		
+		<lootcontainer name="ThugLoot" count="1" size="5,1" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
+			<item group="groupThugLoot"/>
+		</lootcontainer>
+		
+		<lootcontainer name="ZombieMaleLoot" count="1" size="5,1" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
+			<item group="groupZombieMaleLoot"/>
+		</lootcontainer>
+		
+		<lootcontainer name="SteveandTomLoot" count="1" size="5,1" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
+			<item group="groupSteveandTomLoot"/>
+		</lootcontainer>
+		
+		<lootcontainer name="ZombieFemaleLoot" count="1" size="5,1" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" open_time="1" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
+			<item group="groupZombieFemaleLoot"/>
+		</lootcontainer>	
+	</insertafter>	
 </configs>

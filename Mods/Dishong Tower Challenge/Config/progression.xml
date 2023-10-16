@@ -16,7 +16,7 @@
 	
 	<!-- increase probabilty of finding vehicle magazines with each perk point -->
 	<set xpath="//perk[@name='perkGreaseMonkey']/effect_group//passive_effect[2]/@value">3,15</set>
-	<set xpath="//perk[@name='perkGreaseMonkey']/effect_group//passive_effect[3]/@value">3,15</set>
+	<set xpath="//perk[@name='perkGreaseMonkey']/effect_group//passive_effect[3]/@value">3,15</set>	
 	
 	<!-- Once vehicle crafting skill reaches 50, set the probability bonus of finding vehicle crafting skill magazines to 0 -->
 	<set xpath="//perk[@name='perkGreaseMonkey']/effect_group/passive_effect[4]/requirement[@name='ProgressionLevel']/@value">50</set>
@@ -56,7 +56,252 @@
 	<set xpath="//crafting_skill[@name='craftingWorkstations']//display_entry[@name_key='workstationsT5']/@unlock_level">50</set>
 	<set xpath="//crafting_skill[@name='craftingWorkstations']/effect_group//passive_effect[9]/@level">50,50</set>
 	
-	<append xpath="//perk[@name='perkDeadEye']">
+	<!-- new tags and progression for looting zombie corpses -->
+	<insertbefore xpath="//perk[@name='perkGreaseMonkey']/effect_group//effect_description[1]">
+		<passive_effect name="LootQuantity" operation="perc_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="GMLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingVehicles" operation="LT" value="50"/>
+		</passive_effect>
+		
+		<passive_effect name="LootQuantity" operation="base_set" level="1,2,3,4,5" value="0,0,0,0,0" tags="GMLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingVehicles" operation="equals" value="50"/>
+		</passive_effect>
+	</insertbefore>
+	
+	<insertbefore xpath="//perk[@name='perkDeadEye']/effect_group[2]//effect_description[1]">
+		<passive_effect name="LootProb" operation="perc_add" level="1,2,3,4,5" value=".5,1,1.5,2,2.5" tags="RiLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingRifles" operation="LT" value="100"/>
+		</passive_effect>
+		
+		<passive_effect name="LootProb" operation="base_set" level="1,2,3,4,5" value="0,0,0,0,0" tags="RiLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingRifles" operation="equals" value="100"/>
+		</passive_effect>	
+	</insertbefore>
+	
+	<insertbefore xpath="//perk[@name='perkDemolitionsExpert']/effect_group[2]//effect_description[1]">
+		<passive_effect name="LootProb" operation="perc_add" level="1,2,3,4,5" value=".5,1,1.5,2,2.5" tags="EXLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingExplosives" operation="LT" value="100"/>
+		</passive_effect>
+		
+		<passive_effect name="LootProb" operation="base_set" level="1,2,3,4,5" value="0,0,0,0,0" tags="EXLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingExplosives" operation="equals" value="100"/>
+		</passive_effect>	
+	</insertbefore>
+	
+	<insertbefore xpath="//perk[@name='perkJavelinMaster']/effect_group[1]//effect_description[1]">
+		<passive_effect name="LootProb" operation="perc_add" level="1,2,3,4,5" value=".5,1,1.5,2,2.5" tags="SpLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingSpears" operation="LT" value="75"/>
+		</passive_effect>
+		
+		<passive_effect name="LootProb" operation="base_set" level="1,2,3,4,5" value="0,0,0,0,0" tags="SpLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingSpears" operation="equals" value="75"/>
+		</passive_effect>	
+	</insertbefore>
+	
+	<insertbefore xpath="//perk[@name='perkSalvageOperations']/effect_group[3]//effect_description[1]">
+		<passive_effect name="LootProb" operation="perc_add" level="1,2,3,4,5" value=".5,1,1.5,2,2.5" tags="STLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingSalvageTools" operation="LT" value="75"/>
+		</passive_effect>
+		
+		<passive_effect name="LootProb" operation="base_set" level="1,2,3,4,5" value="0,0,0,0,0" tags="STLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingSalvageTools" operation="equals" value="75"/>
+		</passive_effect>	
+	</insertbefore>
+	
+	<insertbefore xpath="//perk[@name='perkBoomstick']/effect_group[2]//effect_description[1]">
+		<passive_effect name="LootProb" operation="perc_add" level="1,2,3,4,5" value=".5,1,1.5,2,2.5" tags="SGLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingShotguns" operation="LT" value="100"/>
+		</passive_effect>
+		
+		<passive_effect name="LootProb" operation="base_set" level="1,2,3,4,5" value="0,0,0,0,0" tags="SGLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingShotguns" operation="equals" value="100"/>
+		</passive_effect>	
+	</insertbefore>
+	
+	<insertbefore xpath="//perk[@name='perkPummelPete']/effect_group[3]//effect_description[1]">
+		<passive_effect name="LootProb" operation="perc_add" level="1,2,3,4,5" value=".5,1,1.5,2,2.5" tags="ClLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingClubs" operation="LT" value="75"/>
+		</passive_effect>
+		
+		<passive_effect name="LootProb" operation="base_set" level="1,2,3,4,5" value="0,0,0,0,0" tags="ClLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingClubs" operation="equals" value="75"/>
+		</passive_effect>	
+	</insertbefore>
+	
+	<insertbefore xpath="//perk[@name='perkSkullCrusher']/effect_group[3]//effect_description[1]">
+		<passive_effect name="LootProb" operation="perc_add" level="1,2,3,4,5" value=".5,1,1.5,2,2.5" tags="SHLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingSledgehammers" operation="LT" value="75"/>
+		</passive_effect>
+		
+		<passive_effect name="LootProb" operation="base_set" level="1,2,3,4,5" value="0,0,0,0,0" tags="SHLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingSledgehammers" operation="equals" value="75"/>
+		</passive_effect>	
+	</insertbefore>
+	
+	<insertbefore xpath="//perk[@name='perkHeavyArmor']/effect_group//effect_description[1]">
+		<passive_effect name="LootProb" operation="perc_add" level="1,2,3,4" value=".7,1.3,1.9,2.5" tags="ArLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingArmor" operation="LT" value="75"/>
+		</passive_effect>
+		
+		<passive_effect name="LootProb" operation="base_set" level="1,2,3,4" value="0,0,0,0" tags="ArLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingArmor" operation="equals" value="75"/>
+		</passive_effect>	
+	</insertbefore>
+	
+	<insertbefore xpath="//perk[@name='perkLightArmor']/effect_group//effect_description[1]">
+		<passive_effect name="LootProb" operation="perc_add" level="1,2,3,4" value=".7,1.3,1.9,2.5" tags="ArLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingArmor" operation="LT" value="75"/>
+		</passive_effect>
+		
+		<passive_effect name="LootProb" operation="base_set" level="1,2,3,4" value="0,0,0,0" tags="ArLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingArmor" operation="equals" value="75"/>
+		</passive_effect>	
+	</insertbefore>
+	
+	<insertbefore xpath="//perk[@name='perkMasterChef']/effect_group//effect_description[1]">
+		<passive_effect name="LootProb" operation="perc_add" level="1,2,3" value=".8,1.5,2.5" tags="FoodLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingFood" operation="LT" value="100"/>
+		</passive_effect>
+		
+		<passive_effect name="LootProb" operation="base_set" level="1,2,3,4,5" value="0,0,0,0,0" tags="FoodLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingFood" operation="equals" value="100"/>
+		</passive_effect>	
+	</insertbefore>
+	
+	<insertbefore xpath="//perk[@name='perkMiner69r']/effect_group[1]//effect_description[1]">
+		<passive_effect name="LootProb" operation="perc_add" level="1,2,3,4,5" value=".5,1,1.5,2,2.5" tags="HTLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingHarvestingTools" operation="LT" value="100"/>
+		</passive_effect>
+		
+		<passive_effect name="LootProb" operation="base_set" level="1,2,3,4,5" value="0,0,0,0,0" tags="HTLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingHarvestingTools" operation="equals" value="100"/>
+		</passive_effect>	
+	</insertbefore>
+	
+	<insertbefore xpath="//perk[@name='perkBrawler']/effect_group[1]//effect_description[1]">
+		<passive_effect name="LootProb" operation="perc_add" level="1,2,3,4,5" value=".5,1,1.5,2,2.5" tags="BrLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingKnuckles" operation="LT" value="75"/>
+		</passive_effect>
+		
+		<passive_effect name="LootProb" operation="base_set" level="1,2,3,4,5" value="0,0,0,0,0" tags="BrLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingKnuckles" operation="equals" value="75"/>
+		</passive_effect>	
+	</insertbefore>
+	
+	<insertbefore xpath="//perk[@name='perkMachineGunner']/effect_group[2]//effect_description[1]">
+		<passive_effect name="LootProb" operation="perc_add" level="1,2,3,4,5" value=".5,1,1.5,2,2.5" tags="MGLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingMachineGuns" operation="LT" value="100"/>
+		</passive_effect>
+		
+		<passive_effect name="LootProb" operation="base_set" level="1,2,3,4,5" value="0,0,0,0,0" tags="MGLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingMachineGuns" operation="equals" value="100"/>
+		</passive_effect>	
+	</insertbefore>
+	
+	<insertbefore xpath="//perk[@name='perkArchery']/effect_group//effect_description[1]">
+		<passive_effect name="LootProb" operation="perc_add" level="1,2,3,4,5" value=".5,1,1.5,2,2.5" tags="BowLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingBows" operation="LT" value="100"/>
+		</passive_effect>
+		
+		<passive_effect name="LootProb" operation="base_set" level="1,2,3,4,5" value="0,0,0,0,0" tags="BowLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingBows" operation="equals" value="100"/>
+		</passive_effect>	
+	</insertbefore>
+	
+	<insertbefore xpath="//perk[@name='perkGunslinger']/effect_group[2]//effect_description[1]">
+		<passive_effect name="LootProb" operation="perc_add" level="1,2,3,4,5" value=".5,1,1.5,2,2.5" tags="HGLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingHandguns" operation="LT" value="100"/>
+		</passive_effect>
+		
+		<passive_effect name="LootProb" operation="base_set" level="1,2,3,4,5" value="0,0,0,0,0" tags="HGLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingHandguns" operation="equals" value="100"/>
+		</passive_effect>	
+	</insertbefore>
+	
+	<insertbefore xpath="//perk[@name='perkDeepCuts']/effect_group[1]//effect_description[1]">
+		<passive_effect name="LootProb" operation="perc_add" level="1,2,3,4,5" value=".5,1,1.5,2,2.5" tags="BlLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingBlades" operation="LT" value="75"/>
+		</passive_effect>
+		
+		<passive_effect name="LootProb" operation="base_set" level="1,2,3,4,5" value="0,0,0,0,0" tags="BlLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingBlades" operation="equals" value="75"/>
+		</passive_effect>	
+	</insertbefore>
+	
+	<insertbefore xpath="//perk[@name='perkElectrocutioner']/effect_group[1]//effect_description[1]">
+		<passive_effect name="LootProb" operation="perc_add" level="1,2,3,4,5" value=".5,1,1.5,2,2.5" tags="RoLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingRobotics" operation="LT" value="100"/>
+		</passive_effect>
+		
+		<passive_effect name="LootProb" operation="base_set" level="1,2,3,4,5" value="0,0,0,0,0" tags="RoLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingRobotics" operation="equals" value="100"/>
+		</passive_effect>	
+	</insertbefore>
+	
+	<insertbefore xpath="//perk[@name='perkTurrets']/effect_group//effect_description[1]">
+		<passive_effect name="LootProb" operation="perc_add" level="1,2,3,4,5" value=".5,1,1.5,2,2.5" tags="RoLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingRobotics" operation="LT" value="100"/>
+		</passive_effect>
+		
+		<passive_effect name="LootProb" operation="base_set" level="1,2,3,4,5" value="0,0,0,0,0" tags="RoLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingRobotics" operation="equals" value="100"/>
+		</passive_effect>	
+	</insertbefore>
+	
+	<insertbefore xpath="//perk[@name='perkPhysician']/effect_group[1]//effect_description[1]">
+		<passive_effect name="LootProb" operation="perc_add" level="1,2,3,4,5" value=".5,1,1.5,2,2.5" tags="MedLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingMedical" operation="LT" value="75"/>
+		</passive_effect>
+		
+		<passive_effect name="LootProb" operation="base_set" level="1,2,3,4,5" value="0,0,0,0,0" tags="MedLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingMedical" operation="equals" value="75"/>
+		</passive_effect>	
+	</insertbefore>
+	
+	<insertbefore xpath="//perk[@name='perkAdvancedEngineering']/effect_group//effect_description[1]">
+		<passive_effect name="LootProb" operation="perc_add" level="1,2,3,4,5" value=".5,1,1.5,2,2.5" tags="ElLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingElectrician" operation="LT" value="100"/>
+		</passive_effect>
+		
+		<passive_effect name="LootProb" operation="base_set" level="1,2,3,4,5" value="0,0,0,0,0" tags="ElLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingElectrician" operation="equals" value="100"/>
+		</passive_effect>
+		
+		<passive_effect name="LootProb" operation="perc_add" level="1,2,3,4,5" value=".5,1,1.5,2,2.5" tags="TrLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingTraps" operation="LT" value="75"/>
+		</passive_effect>
+		
+		<passive_effect name="LootProb" operation="base_set" level="1,2,3,4,5" value="0,0,0,0,0" tags="TrLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingTraps" operation="equals" value="75"/>
+		</passive_effect>
+		
+		<passive_effect name="LootProb" operation="perc_add" level="1,2,3,4,5" value=".5,1,1.5,2,2.5" tags="WSLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingWorkstations" operation="LT" value="50"/>
+		</passive_effect>
+		
+		<passive_effect name="LootProb" operation="base_set" level="1,2,3,4,5" value="0,0,0,0,0" tags="WSLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingWorkstations" operation="equals" value="50"/>
+		</passive_effect>
+		
+		<passive_effect name="LootProb" operation="perc_add" level="1,2,3,4,5" value=".5,1,1.5,2,2.5" tags="RTLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingRepairTools" operation="LT" value="50"/>
+		</passive_effect>
+		
+		<passive_effect name="LootProb" operation="base_set" level="1,2,3,4,5" value="0,0,0,0,0" tags="RTLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingRepairTools" operation="equals" value="50"/>
+		</passive_effect>
+	</insertbefore>
+	
+	<insertbefore xpath="//perk[@name='perkLockPicking']/effect_group//effect_description[1]">
+		<passive_effect name="LootProb" operation="perc_add" level="1,2,3" value=".5,1.5,2.5" tags="WSLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingWorkstations" operation="LT" value="50"/>
+		</passive_effect>
+		
+		<passive_effect name="LootProb" operation="base_set" level="1,2,3" value="0,0,0" tags="WSLoot">
+			<requirement name="ProgressionLevel" progression_name="craftingWorkstations" operation="equals" value="50"/>
+		</passive_effect>	
+	</insertbefore>
+	
+	<!-- <append xpath="//perk[@name='perkDeadEye']">
 		<effect_group>
             <requirement name="ProgressionLevel" progression_name="perkDeadEye" operation="Equals" value="0"/>
             <passive_effect name="HarvestCount" operation="base_add" level="0" value="1" tags="DEHarvest0"/>
@@ -1330,7 +1575,5 @@
             <passive_effect name="HarvestCount" operation="base_add" level="5" value="1" tags="LPHarvest5"/>            
         </effect_group>
 
-	</append>
-			
-			
+	</append> -->			
 </configs>

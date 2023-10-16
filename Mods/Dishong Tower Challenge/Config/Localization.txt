@@ -1,49 +1,92 @@
-Key,Source,Context,Changes,English
-resourceCoalDesc,,items,Item,"A great fuel source and a core ingredient for gunpowder.\n\nCan be made from wood in a campfire",,Ein sehr gutes Brennmaterial und eine der wichtigsten Zutaten für die Fertigung von Schießpulver.,Una gran fuente de combustible y un ingrediente principal para la pólvora,Une excellente source de carburant et un composant de base pour la poudre à canon.,Un'ottima fonte di carburante e un ingrediente fondamentale per la polvere da sparo.,良質な燃料として、また火薬の主成分として。,우수한 연료이며 화약의 핵심 성분입니다.,Doskonały nośnik energii i nieodzowny składnik prochu strzelniczego.,Uma excelente fonte de combustível e um ingrediente importantíssimo da pólvora.,Отличное топливо и ингредиент для пороха.,Harika bir yakıt kaynağıdır ve barutun ana maddesidir.,火药的重要燃料来源和核心材料。,火藥的重要燃料來源和核心成分。
+Key,English
+resourceCoalDesc,"A great fuel source and a core ingredient for gunpowder.\n\nCan be made from wood in a campfire",,Ein sehr gutes Brennmaterial und eine der wichtigsten Zutaten für die Fertigung von Schießpulver.,Una gran fuente de combustible y un ingrediente principal para la pólvora,Une excellente source de carburant et un composant de base pour la poudre à canon.,Un'ottima fonte di carburante e un ingrediente fondamentale per la polvere da sparo.,良質な燃料として、また火薬の主成分として。,우수한 연료이며 화약의 핵심 성분입니다.,Doskonały nośnik energii i nieodzowny składnik prochu strzelniczego.,Uma excelente fonte de combustível e um ingrediente importantíssimo da pólvora.,Отличное топливо и ингредиент для пороха.,Harika bir yakıt kaynağıdır ve barutun ana maddesidir.,火药的重要燃料来源和核心材料。,火藥的重要燃料來源和核心成分。
 
-resourceAnimalFat,items,Item,EnChanged,"Fat",,Tierfett,Grasa animal,Graisse animale,Grasso animale,動物性油脂,동물성 지방,Tłuszcz zwierzęcy,Gordura animal,Животный жир,Hayvan Yağı,动物脂肪,動物脂肪
-resourceAnimalFatDesc,items,Item,EnChanged,"Fat can be eaten raw or used in cooking or other crafting recipes.",,Tierfett kann roh gegessen oder in Koch- oder anderen Fertigungsrezepten verwendet werden.,"La grasa animal se puede comer cruda, usarla para cocinar o para fabricar otras recetas.",La graisse animale peut être mangée crue ou utilisée pour cuisiner ou fabriquer d'autres compositions.,"Il grasso animale può essere consumato crudo, utilizzato per cucinare e in varie ricette.",動物性油脂は生食やその他のレシピのクラフトに使用できます。,동물성 지방은 날것으로 먹거나 요리 및 다른 레시피에 사용할 수 있습니다.,"Możesz go zjeść na surowo, ewentualnie wykorzystać do gotowania i rzemiosła.",A gordura animal pode ser comida crua ou usada na culinária e em receitas de fabricação.,"Можно съесть сырым, использовать при приготовлении пищи или изготовлении предметов по рецептам.",Hayvan yağı çiğ yenebilir veya yemek pişirirken ya da başka üretim tariflerinde kullanılabilir.,动物脂肪可生吃，也可用于烹饪或其他制作配方中。,動物脂肪可以生吃，也可以用於烹飪或製作其他配方。
+resourceAnimalFat,"Fat",,Tierfett,Grasa animal,Graisse animale,Grasso animale,動物性油脂,동물성 지방,Tłuszcz zwierzęcy,Gordura animal,Животный жир,Hayvan Yağı,动物脂肪,動物脂肪
+resourceAnimalFatDesc,"Fat can be eaten raw or used in cooking or other crafting recipes.",,Tierfett kann roh gegessen oder in Koch- oder anderen Fertigungsrezepten verwendet werden.,"La grasa animal se puede comer cruda, usarla para cocinar o para fabricar otras recetas.",La graisse animale peut être mangée crue ou utilisée pour cuisiner ou fabriquer d'autres compositions.,"Il grasso animale può essere consumato crudo, utilizzato per cucinare e in varie ricette.",動物性油脂は生食やその他のレシピのクラフトに使用できます。,동물성 지방은 날것으로 먹거나 요리 및 다른 레시피에 사용할 수 있습니다.,"Możesz go zjeść na surowo, ewentualnie wykorzystać do gotowania i rzemiosła.",A gordura animal pode ser comida crua ou usada na culinária e em receitas de fabricação.,"Можно съесть сырым, использовать при приготовлении пищи или изготовлении предметов по рецептам.",Hayvan yağı çiğ yenebilir veya yemek pişirirken ya da başka üretim tariflerinde kullanılabilir.,动物脂肪可生吃，也可用于烹饪或其他制作配方中。,動物脂肪可以生吃，也可以用於烹飪或製作其他配方。
+drugAntibioticsDT,Antibiotics
+drugAntibioticsDTDesc,Antibiotics can cure infections.\n\nCan be crafted in a beaker at a campfire.
 
-loadingTipMagazines,UI,Loading Screen,x,"Magazines are the key to increasing your crafting skills. They can be found in mailboxes, bookshelves, and many other related loot containers such as Shotgun Weekly in Shotgun Messiah Crates or Home Cooking Weekly in kitchen cabinets. They can also be harvested from zombie corpses.",,"Zeitschriften sind der Schlüssel, um deine Fertigungs-Fertigkeiten zu verbessern. Sie können in Briefkästen, Bücherregalen und vielen anderen relevanten Beutebehältern gefunden werden. So kann z.B. die „Shotgun Weekly“ in Schrotflinten-Messias-Kisten oder die „Home Cooking Weekly“ in Küchenschränken stecken.","Las revistas son la clave para aumentar tus habilidades de fabricación. Se pueden encontrar en buzones, estanterías y muchos otros contenedores de botín relacionados, como el Semanario de escopetas en las cajas de Mesías Escopetero o Cocina casera semanal en los armarios de las cocinas.","Les magazines sont essentiels pour améliorer vos compétences en fabrication. Vous pouvez en trouver dans les boîtes aux lettres, sur des étagères, et dans divers dépôts de butin comme l'Hebdo des fusils à pompe dans les caisses Shotgun Messiah ou l'Hebdo des recettes dans les placards de cuisine.","Le riviste sono la chiave per aumentare le tue abilità di creazione. Puoi trovarle nelle cassette postali, negli scaffali e in molti altri contenitori di bottino correlati, come ad esempio il settimanale sui fucili nelle casse Il profeta del fucile o il settimanale sulla cucina casalinga nei mobili da cucina.",雑誌はクラフトスキルを向上させるのに重要です。これらは郵便受け、本棚、そして他の関連する略奪品コンテナで見つかります。例えば、ショットガン・メシア・クレートで「週刊ショットガン」が、キッチンの棚で「週刊家庭料理」が見つかるといった具合です。,"잡지는 제작 기술을 향상시키는 열쇠입니다. 잡지는 우편함, 책장, 그리고 다양한 관련 약탈품 상자에서 샷건 메시아 상자의 주간 샷건이나 부엌 찬장의 주간 홈 쿠킹 같은 잡지를 찾을 수 있습니다.","Czasopisma to najlepszy sposób na ulepszenie umiejętności wytwarzania. Możesz je znaleźć w skrzynkach pocztowych, na półkach i wielu podobnych miejscach z łupami – na przykład tygodnik „Strzelby” znajdziesz w skrzyniach Mesjasza Strzelby, a „Kuchnię Domową” w szafkach kuchennych.","As revistas são a chave para aumentar suas habilidades de fabricação. Encontre-as em caixas de correio, estantes de livros e muitos locais de espólios relacionados, como a Espingarda Semanal em Caixotes Messias da Espingarda ou Comida Caseira Semanal em armários na cozinha.","Журналы крайне важны для совершенствования навыков изготовления. Журналы можно найти в почтовых ящиках, на книжных полках и других соответствующих контейнерах добычи: например, журнал «Еженедельная дробь» попадается в ящиках «Виртуоз дробовика», а «Еженедельник домашней готовки» можно найти в кухонных шкафчиках.","Dergiler üretim becerilerini artırmanın en iyi yoludur. Posta kutularında, kitaplıklarda ve Shotgun Messiah Sandıklarındaki Haftalık Pompalı Tüfek veya mutfak dolaplarındaki Evde Yemek Pişirme gibi diğer birçok ilgili ganimet kaplarında bulunabilirler.",杂志是提升制作技能的关键。你可以在邮箱、书架以及许多其他相关战利品容器中找到它们，比如霰弹枪救星箱中的《霰弹枪周刊》或是厨房橱柜中的《家庭烹饪周刊》。,雜誌是提升製作技能的關鍵。可以在郵箱、書架，以及許多相關戰利品容器中獲得 – 如散彈獵槍彌爾塞箱中出現《散彈獵槍週刊》，或在廚房櫥櫃中找到《家廚週刊》等。
-loadingTipCredits,UI,Loading Screen,x,"Thanks to W00kien00kie for the custom code, Khelldon for the custom menu, Frantic_Dan for ideas & xpath help, Zilox, Midnight Designer, SphereII and Pitchsilent for the original base mod and concept.",,
-loadingTipCredits_title,UI,Loading Screen,x,Credits,,
-resourcePaper,items,Item,KgNone,"Chinese Takeout Menu"
-resourcePaperDesc,items,Item,EnChanged,"'Chicken' Fried 'Rice'\n'Fresh' 'Egg' Rolls\nGeneral MD's Chicken\nDeep-fried wontons with hot cream cheese and crab\n\n$2 Tuesday Buffet!\n*Zombies Eat Free on Tuesdays"
-tutorialTipQuest01,,Journal Tip,EnChanged,"Welcome to the Dishong Tower Challenge.\n\nFight your way up the top of the tower, looting and crafting everything you need to craft a gyrocopter to make your escape from the top. \nFailure is not an option. \n\nRULES:\nYou must enter the Dishong Tower immediately (being on the front porch counts as being in) and cannot leave thereafter. The rubble on the ground around the tower is NOT part of the tower, and as such may NOT be used to support any structures, or to grow any crops, unless you can do this WITHOUT touching it. \nYou may build bridges off the side of the building to reach things, but those bridges must support themselves and cannot touch the ground.\nYou may not mine or dig under the building.\nAll default game settings, unless you want to turn up the size of the hordes. It's recommended to have loot respawn set to 7 days, and turn airdrops OFF.\nIf you die, the game is over.\nYou must survive until you are able to build a gyrocopter and fly off the roof.\n\nYou have ONE life. Make it count."
-tutorialTipQuest01_title,,Journal Tip,KeyTrunk FrNone GrNone KgNone SpNone,Started The Dishong Tower Challenge
+harvestingToolsSkillMagazineDT,Tools Digest
+repairToolsSkillMagazineDT,Handy Land
+salvageToolsSkillMagazineDT,Scrapping 4 Fun
+vehiclesSkillMagazineDT,Vehicle Adventures
+workstationSkillMagazineDT,Forge Ahead
+armorSkillMagazineDT,Armored Up
+electricianSkillMagazineDT,Wiring 101
+trapsSkillMagazineDT,Electrical Traps
+foodSkillMagazineDT,Home Cooking Weekly
+bowsSkillMagazineDT,Bow Hunters
+handgunsSkillMagazineDT,Handgun Magazine
+machineGunsSkillMagazineDT,Tactical Warfare
+riflesSkillMagazineDT,Rifle World
+shotgunsSkillMagazineDT,Shotgun Weekly
+medicalSkillMagazineDT,Medical Journal
+bladesSkillMagazineDT,Knife Guy
+clubsSkillMagazineDT,Big Hitters
+knucklesSkillMagazineDT,Furious Fists
+sledgehammersSkillMagazineDT,Get Hammered
+spearsSkillMagazineDT,Sharp Sticks
+roboticsSkillMagazineDT,Tech Planet
+explosivesSkillMagazineDT,Explosive Magazine
 
-challenge_StartingDishingTower,,Quest Info,Reordered,"Do you think you have what it takes?"
-challenge_StartingDishingTower_description,,Quest Info,Reordered,"Do you have what it takes to complete the Dishong Tower Challenge? Prove it."
-challenge_StartingDishingTower_subtitle,,Quest Info,Reordered,"Prove your worth."
-challenge_StartingDishingTower_offer,,Quest,Challenge Info,"So you think you can handle the Dishong Tower Challenge? The worlds gone to hell in a handbasket, and you think you can just leisurely walk in for some fun?\n\nYeh, right."
+loadingTipDishong1,"All seed crafting is unlocked by default, and some seeds only require a couple of food items to make. There are SOME usuable farmplots in the tower ..."
+loadingTipDishong1_title,Seeds
+loadingTipDishong2,"Almost every zombie can be looted once dead, and specific zombies will have a chance to drop specific loot."
+loadingTipDishong2_title,Zombie Loot
+loadingTipDishong3,"Skill magazines can be found in their usual places, and certain zombies have a chance to give certain magazines after looting their corpse."
+loadingTipDishong3_title,Skill Magazines
+loadingTipDishong4,"Loot respawn is integral to completing this challenge. Loot will automatically restock after a certain period of time, determined by the 'Loot Respawn' number you set before starting the game."
+loadingTipDishong4_title,Looting
+loadingTipDishong5,"Zombies can now be set to respawn after a time you decide. Check the 'Dishong' tab on the main menu, and set the number of days you want between zombies respawning in the tower."
+loadingTipDishong5_title,Zombie respawns
+loadingTipDishong6,"Resources are scarce in the tower, but you will be able to find or craft everything you need to complete the challenge. Some resources, like old cash, can be used in recipes - so make sure you check the recipes for EVERYTHING. Also, some of the rarer resources, like acid, can now be crafted. It can also be looted from zombies - along with antibiotics and beakers."
+loadingTipDishong6_title,Resources
+loadingTipDishong7,"Crafting workstations, and tools like the crucible, and vehicles themselves, take fewer magazines to read before they unlock."
+loadingTipDishong7_title,Crafting
+loadingTipDishong8,"Trying to leave the tower other than by gyrocopter is a very bad idea ..."
+loadingTipDishong8_title,Cheating
+loadingTipDishong9,"Certain in-game functions, like zombie health bars and XP pop-ups, can be enabled or disabled from the pause menu. Pause the game, click 'video' then the 'Customization' tab."
+loadingTipDishong9_title,Customization
+loadingTipDishong10,"Thanks to w00kien00kie for the custom code, Khelldon for the custom menu, Frantic_Dan for ideas & xpath help, Zilox, Midnight Designer, SphereII, and Pitchsilent for the original base mod and concept"
+loadingTipDishong10_title,Special Thanks
+
+resourcePaper,"Chinese Takeout Menu"
+resourcePaperDesc,"'Chicken' Fried 'Rice'\n'Fresh' 'Egg' Rolls\nGeneral MD's Chicken\nDeep-fried wontons with hot cream cheese and crab\n\n$2 Tuesday Buffet!\n*Zombies Eat Free on Tuesdays"
+tutorialTipQuest01,"Welcome to the Dishong Tower Challenge.\n\nFight your way up the top of the tower, looting and crafting everything you need to craft a gyrocopter to make your escape from the top. \nFailure is not an option. \n\nRULES:\nYou must enter the Dishong Tower immediately (being on the front porch counts as being in) and cannot leave thereafter. The rubble on the ground around the tower is NOT part of the tower, and as such may NOT be used to support any structures, or to grow any crops, unless you can do this WITHOUT touching it. \nYou may build bridges off the side of the building to reach things, but those bridges must support themselves and cannot touch the ground.\nYou may not mine or dig under the building.\nAll default game settings, unless you want to turn up the size of the hordes. It's recommended to have loot respawn set to 7 days.\nIf you die, the game is over.\nYou must survive until you are able to build a gyrocopter and fly off the roof.\n\nYou have ONE life. Make it count."
+tutorialTipQuest01_title,Started The Dishong Tower Challenge
+
+challenge_StartingDishingTower,"Do you think you have what it takes?"
+challenge_StartingDishingTower_description,"Do you have what it takes to complete the Dishong Tower Challenge? Prove it."
+challenge_StartingDishingTower_subtitle,"Prove your worth."
+challenge_StartingDishingTower_offer,"So you think you can handle the Dishong Tower Challenge? The worlds gone to hell in a handbasket, and you think you can just leisurely walk in for some fun?\n\nYeh, right."
 
 dishongTowerBundle,Dishong Tower Challenge Starter Items,,
 dishongTowerBundleDesc,Starter items for the dishong tower challenge.,,
-quest_DishongTowerChallenge01,,Quest Info,Reordered,"Gather Gyrocopter Accessories 1/4"
-quest_DishongTowerChallenge01_offer,,Quest,Challenge Info,"Gather resources for the gyrocopter accessories."
-quest_DishongTowerChallenge01_description,,Quest Info,Reordered,"Gather resources for the gyrocopter accessories."
-quest_DishongTowerChallenge01_subtitle,,Quest Info,Reordered,"Gather resources for the gyrocopter accessories."
+quest_DishongTowerChallenge01,"Gather Gyrocopter Accessories 1/4"
+quest_DishongTowerChallenge01_offer,"Gather resources for the gyrocopter accessories."
+quest_DishongTowerChallenge01_description,"Gather resources for the gyrocopter accessories."
+quest_DishongTowerChallenge01_subtitle,"Gather resources for the gyrocopter accessories."
 
 
-quest_DishongTowerChallenge02,,Quest Info,Reordered,"Gather Gyrocopter Chassis 2/4"
-quest_DishongTowerChallenge02_offer,,Quest,Challenge Info,"Gather resources for the gyrocopter chassis."
-quest_DishongTowerChallenge02_description,,Quest Info,Reordered,"Gather resources for the gyrocopter chassis."
-quest_DishongTowerChallenge02_subtitle,,Quest Info,Reordered,"Gather resources for the gyrocopter chassis."
+quest_DishongTowerChallenge02,"Gather Gyrocopter Chassis 2/4"
+quest_DishongTowerChallenge02_offer,"Gather resources for the gyrocopter chassis."
+quest_DishongTowerChallenge02_description,"Gather resources for the gyrocopter chassis."
+quest_DishongTowerChallenge02_subtitle,"Gather resources for the gyrocopter chassis."
 
-quest_DishongTowerChallenge03,,Quest Info,Reordered,"Gather Gyrocopter Parts 3/4"
-quest_DishongTowerChallenge03_offer,,Quest,Challenge Info,"Gather all the parts to craft a gyrocopter, and craft the gyrocopter."
-quest_DishongTowerChallenge03_description,,Quest Info,Reordered,"Gather all the parts to craft a gyrocopter, and craft the gyrocopter."
-quest_DishongTowerChallenge03_subtitle,,Quest Info,Reordered,"Craft the gyrocopter."
+quest_DishongTowerChallenge03,"Gather Gyrocopter Parts 3/4"
+quest_DishongTowerChallenge03_offer,"Gather all the parts to craft a gyrocopter, and craft the gyrocopter."
+quest_DishongTowerChallenge03_description,"Gather all the parts to craft a gyrocopter, and craft the gyrocopter."
+quest_DishongTowerChallenge03_subtitle,"Craft the gyrocopter."
 
-quest_DishongTowerChallenge04,,Quest Info,Reordered,"Gather Gyrocopter Parts 4/4"
-quest_DishongTowerChallenge04_offer,,Quest,Challenge Info,"Fly! Fly, my pretty!! Trader Jen is your salvation!!"
-quest_DishongTowerChallenge04_description,,Quest Info,Reordered,"Escape the Dishong Tower!"
-quest_DishongTowerChallenge04_subtitle,,Quest Info,Reordered,"Escape the Tower!"
+quest_DishongTowerChallenge04,"Gather Gyrocopter Parts 4/4"
+quest_DishongTowerChallenge04_offer,"Fly! Fly, my pretty!! Trader Jen is your salvation!!"
+quest_DishongTowerChallenge04_description,"Escape the Dishong Tower!"
+quest_DishongTowerChallenge04_subtitle,"Escape the Tower!"
 
-Challenge Completion,,Quest Info,Reordered,"You made it!!"
-Challenge Completion_offer,,Quest,Challenge Info,"Challenge complete!"
-Challenge Completion_description,,Quest Info,Reordered,"Congratulations on escaping the Tower!"
-Challenge Completion_subtitle,,Quest Info,Reordered,"Congratulations!"
+Challenge Completion,"You made it!!"
+Challenge Completion_offer,"Challenge complete!"
+Challenge Completion_description,"Congratulations on escaping the Tower!"
+Challenge Completion_subtitle,"Congratulations!"
 
-Quest_Completion_tip_title,,Journal Tip,EnChanged,Completed The Dishong Tower Challenge
-Quest_Completion_tip,,Journal Tip,EnChanged,"Congratulations! \n\nYou have successfully completed the Dishong Tower challenge! \n\nWant another challenge? \n\nTry The Spencer Mansion Incident! \n\nhttps://7daystodiemods.com/the-spencer-mansion-incident-resident-evil/"
+Quest_Completion_tip_title,Completed The Dishong Tower Challenge
+Quest_Completion_tip,"Congratulations! \n\nYou have successfully completed the Dishong Tower challenge! \n\nWant another challenge? \n\nTry The Spencer Mansion Incident!"
