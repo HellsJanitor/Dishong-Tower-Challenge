@@ -31,6 +31,28 @@
 	<set xpath="/items/item[@name='foodEgg']/property[@name='EconomicValue']/@value">30</set>
 	
 	<set xpath="//item[@name='resourceCoal']//property[@name='Group']/@value">Resources,Chemicals,CFChemicals</set>
+	<set xpath="//item[@name='resourceAcid']//property[@name='Group']/@value">Resources,Chemicals,CFChemicals</set>
+	<insertbefore xpath="//item[@name='resourceAcid']//property[1]">
+		<property name="UnlockedBy" value="craftingVehicles"/>
+	</insertbefore>
+	
+	<insertafter xpath="//item[@name='resourceAcid']">
+	<item name="resourceBatteryAcid">
+		<property name="CustomIcon" value="resourceAcid"/>
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+		<property name="DescriptionKey" value="resourceBatteryAcidDesc"/>
+		<property name="Material" value="MresourceAcid"/>
+		<property name="Weight" value="0"/>
+		<property name="Stacknumber" value="100"/> <!-- STK resource -->
+		<property name="EconomicValue" value="140"/>
+		<property name="EconomicBundleSize" value="1"/>
+		<property name="Group" value="Resources,Chemicals"/>
+	</item>
+	</insertafter>
+
+	<!-- <property name="DescriptionKey" value="armorLeatherGroupDesc"/> -->
 	
 	<set xpath="//item[@name='resourceWaterFilter']//property[@name='Stacknumber']/@value">1</set>
 	<insertafter xpath="//item[@name='drugAntibiotics']">

@@ -24,11 +24,18 @@
       <ingredient name="ammoArrowIron" count="1"/>
     </recipe>
 	
-	<recipe name="resourceAcid" count="1" craft_area="chemistryStation" craft_time="40" >
+	<recipe name="resourceBatteryAcid" count="1" craft_area="chemistryStation" craft_time="40" >
       <ingredient name="carBattery" count="1"/>
     </recipe>
 	
-	<recipe name="resourceAcid" count="1" craft_area="chemistryStation" craft_time="180" >
+	<recipe name="resourceAcid" count="1" craft_area="chemistryStation" craft_time="200" tags="perkGreaseMonkey,learnable,chemStationCrafting">
+      <ingredient name="drinkJarBoiledWater" count="3"/>
+	  <ingredient name="resourceCoal" count="75"/>
+	  <ingredient name="resourceScrapIron" count="25"/>
+	  <ingredient name="resourceScrapBrass" count="25"/>
+    </recipe>
+	
+	<recipe name="resourceAcid" count="1" craft_area="campfire" craft_tool="toolBeaker" craft_time="300" tags="perkGreaseMonkey,learnable">
       <ingredient name="drinkJarBoiledWater" count="5"/>
 	  <ingredient name="resourceCoal" count="150"/>
 	  <ingredient name="resourceScrapIron" count="50"/>
@@ -68,5 +75,20 @@
 
   <removeattribute xpath="/recipes/recipe[@name='plantedAloe1']/@tags" />
   <set xpath="/recipes/recipe[@name='plantedAloe1']/ingredient/@count">2</set>
-
+  
+  <!-- removes crafting of non-essential vehicles & parts -->
+  <remove xpath="//recipe[@name='vehicle4x4TruckAccessories']"/>
+  <remove xpath="//recipe[@name='vehicle4x4TruckChassis']"/>
+  <remove xpath="//recipe[@name='vehicle4x4TruckPlaceable']"/>
+  <remove xpath="//recipe[@name='vehicleBicycleChassis']"/>
+  <remove xpath="//recipe[@name='vehicleBicyclePlaceable']"/>
+  <remove xpath="//recipe[@name='vehicleMinibikeChassis']"/>
+  <remove xpath="//recipe[@name='vehicleMinibikeHandlebars']"/>
+  <remove xpath="//recipe[@name='vehicleMinibikePlaceable']"/>
+  <remove xpath="//recipe[@name='vehicleMotorcycleChassis']"/>
+  <remove xpath="//recipe[@name='vehicleMotorcycleHandlebars']"/>
+  <remove xpath="//recipe[@name='vehicleMotorcyclePlaceable']"/>
+  <remove xpath="//recipe[@name='bedrollBlockVariantHelper']"/>
+  <remove xpath="//recipe[@name='bed02']"/>
+  <remove xpath="//recipe[@name='keystoneBlock']"/>
 </configs>

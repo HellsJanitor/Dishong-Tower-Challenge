@@ -1,10 +1,65 @@
 Key,English
 resourceCoalDesc,"A great fuel source and a core ingredient for gunpowder.\n\nCan be made from wood in a campfire",,Ein sehr gutes Brennmaterial und eine der wichtigsten Zutaten für die Fertigung von Schießpulver.,Una gran fuente de combustible y un ingrediente principal para la pólvora,Une excellente source de carburant et un composant de base pour la poudre à canon.,Un'ottima fonte di carburante e un ingrediente fondamentale per la polvere da sparo.,良質な燃料として、また火薬の主成分として。,우수한 연료이며 화약의 핵심 성분입니다.,Doskonały nośnik energii i nieodzowny składnik prochu strzelniczego.,Uma excelente fonte de combustível e um ingrediente importantíssimo da pólvora.,Отличное топливо и ингредиент для пороха.,Harika bir yakıt kaynağıdır ve barutun ana maddesidir.,火药的重要燃料来源和核心材料。,火藥的重要燃料來源和核心成分。
-
+resourceAcidDesc,A resource used in crafting recipes.\n\nCan be crafted in beaker at a campfire or at the chemistry station.
+resourceBatteryAcid,Bottle of Acid
+resourceBatteryAcidDesc,A resource used in crafting recipes.\n\nCan be extracted from a car battery at the chemistry station.
 resourceAnimalFat,"Fat",,Tierfett,Grasa animal,Graisse animale,Grasso animale,動物性油脂,동물성 지방,Tłuszcz zwierzęcy,Gordura animal,Животный жир,Hayvan Yağı,动物脂肪,動物脂肪
 resourceAnimalFatDesc,"Fat can be eaten raw or used in cooking or other crafting recipes.",,Tierfett kann roh gegessen oder in Koch- oder anderen Fertigungsrezepten verwendet werden.,"La grasa animal se puede comer cruda, usarla para cocinar o para fabricar otras recetas.",La graisse animale peut être mangée crue ou utilisée pour cuisiner ou fabriquer d'autres compositions.,"Il grasso animale può essere consumato crudo, utilizzato per cucinare e in varie ricette.",動物性油脂は生食やその他のレシピのクラフトに使用できます。,동물성 지방은 날것으로 먹거나 요리 및 다른 레시피에 사용할 수 있습니다.,"Możesz go zjeść na surowo, ewentualnie wykorzystać do gotowania i rzemiosła.",A gordura animal pode ser comida crua ou usada na culinária e em receitas de fabricação.,"Можно съесть сырым, использовать при приготовлении пищи или изготовлении предметов по рецептам.",Hayvan yağı çiğ yenebilir veya yemek pişirirken ya da başka üretim tariflerinde kullanılabilir.,动物脂肪可生吃，也可用于烹饪或其他制作配方中。,動物脂肪可以生吃，也可以用於烹飪或製作其他配方。
 drugAntibioticsDT,Antibiotics
-drugAntibioticsDTDesc,Antibiotics can cure infections.\n\nCan be crafted in a beaker at a campfire.
+drugAntibioticsDTDesc,Antibiotics can cure infections.\n\nCan be crafted in a beaker at a campfire or at the chemistry station.
+foodShepardsPie,Shepherd's Pie
+foodShepardsPieDesc,"Shepherd's Pie sure is tasty and super filling.\n\nI just wish The Fun Pimps spelt it properly, so I didn't need to add this description..."
+
+DishongEntityLootContainerUtilityWorkerLoot,Special Loot
+DishongEntityLootContainerBusinessManLoot,Special Loot
+DishongEntityLootContainerPartyGirlLoot,Special Loot
+DishongEntityLootContainerWightFeralLoot,Special Loot
+DishongEntityLootContainerFatCopLoot,Special Loot
+DishongEntityLootContainerZombieMutatedLoot,Special Loot
+DishongEntityLootContainerJanitorLoot,Special Loot
+DishongEntityLootContainerSkateboarderLoot,Special Loot
+DishongEntityLootContainerSoldierLoot,Special Loot
+DishongEntityLootContainerZombieFemaleLoot,Special Loot
+DishongEntityLootContainerSteveAndTomLoot,Special Loot
+DishongEntityLootContainerZombieMaleLoot,Special Loot
+DishongEntityLootContainerFatZombieLoot,Special Loot
+DishongEntityLootContainerNurseLoot,Special Loot
+DishongEntityLootContainerLabWorkerLoot,Special Loot
+DishongEntityLootContainerMaleHazmatLoot,Special Loot
+DishongEntityLootContainerLumberjackLoot,Special Loot
+DishongEntityLootContainerBikerLoot,Special Loot
+
+DishongEntityLootContainerRadUtilityWorkerLoot,Special Loot
+DishongEntityLootContainerRadBusinessManLoot,Special Loot
+DishongEntityLootContainerRadPartyGirlLoot,Special Loot
+DishongEntityLootContainerRadWightFeralLoot,Special Loot
+DishongEntityLootContainerRadFatCopLoot,Special Loot
+DishongEntityLootContainerRadZombieMutatedLoot,Special Loot
+DishongEntityLootContainerRadJanitorLoot,Special Loot
+DishongEntityLootContainerRadSkateboarderLoot,Special Loot
+DishongEntityLootContainerRadSoldierLoot,Special Loot
+DishongEntityLootContainerRadZombieFemaleLoot,Special Loot
+DishongEntityLootContainerRadSteveAndTomLoot,Special Loot
+DishongEntityLootContainerRadZombieMaleLoot,Special Loot
+DishongEntityLootContainerRadFatZombieLoot,Special Loot
+DishongEntityLootContainerRadNurseLoot,Special Loot
+DishongEntityLootContainerRadLabWorkerLoot,Special Loot
+
+perkGreaseMonkeyRank1Desc,Wheely good
+perkGreaseMonkeyRank1LongDesc,Congratulations - you are now as smart as a primitive human!\n\nCraft wheels.\n\nRepair kits are 10 percent more effective on vehicles.
+perkGreaseMonkeyRank2Desc,Oil be back
+perkGreaseMonkeyRank2LongDesc,"Not quite a fully-fledged petrochemist, but at least it's a start.\n\nCraft oil & acid.\n\nRepair kits are 20 percent more effective on vehicles."
+perkGreaseMonkeyRank3Desc,Life's a gas
+perkGreaseMonkeyRank3LongDesc,Now you're getting the hang of it! Just need a vehicle to put this stuff in.\n\nCraft gasoline.\n\nRepair kits are 30 percent more effective on vehicles.
+perkGreaseMonkeyRank4Desc,Not very basic
+perkGreaseMonkeyRank4LongDesc,"Don't spill this stuff. If you step in it, you won't have a leg to stand on..."\n\nCraft acid.\n\nRepair kits are 40 percent more effective on vehicles.
+perkGreaseMonkeyRank5Desc,At last!!
+perkGreaseMonkeyRank5LongDesc,"Well, you finally figured out how to do it...\nCraft gyrocopter parts 33% cheaper.\n\nRepair kits are 50 percent more effective on vehicles."
+vehiclesT1,Tier 1: Wheels
+vehiclesT2,Tier 2: Oil
+vehiclesT3,Tier 3: Gas Cans
+vehiclesT4,Tier 4: Acid
+vehiclesT5,Tier 5: Gyrocopter
 
 harvestingToolsSkillMagazineDT,Tools Digest
 repairToolsSkillMagazineDT,Handy Land
@@ -28,6 +83,48 @@ sledgehammersSkillMagazineDT,Get Hammered
 spearsSkillMagazineDT,Sharp Sticks
 roboticsSkillMagazineDT,Tech Planet
 explosivesSkillMagazineDT,Explosive Magazine
+zombieBiker,Zilox
+zombieBikerFeral,Feral Zilox
+zombieBikerRadiated,Radiated Zilox
+zombieBoe,w00kien00kie
+zombieBoeFeral,Feral w00kien00kie
+zombieBoeRadiated,Radiated w00kien00kie
+zombieBurnt,Jagz_1
+zombieBurntFeral,Feral Jagz_1
+zombieBurntRadiated,Radiated Jagz_1
+zombieDarlene,Lumun
+zombieDarleneFeral,Feral Lumun
+zombieDarleneRadiated,Radiated Lumun
+zombieFatCop,Frantic_Dan
+zombieFatCopFeral,Feral Frantic_Dan
+zombieFatCopRadiated,Radiated Frantic_Dan
+zombieJanitor,HellsJanitor
+zombieJanitorFeral,Feral HellsJanitor
+zombieJanitorRadiated,Radiated HellsJanitor
+zombieLab,Kualija
+zombieLabFeral,Feral Kualija
+zombieLabRadiated,Radiated Kualija
+zombieLumberjack,JonahBirch
+zombieLumberjackFeral,Feral JonahBirch
+zombieLumberjackRadiated,Radiated JonahBirch
+zombieMaleHazmat,MidnightDesigner
+zombieMaleHazmatFeral,Feral MidnightDesigner
+zombieMaleHazmatRadiated,Radiated MidnightDesigner
+zombieMarlene,Misterri
+zombieMarleneFeral,Feral Misterri
+zombieMarleneRadiated,Radiated Misterri
+zombieMoe,PitchSilent
+zombieMoeFeral,Feral PitchSilent
+zombieMoeRadiated,Radiated PitchSilent
+zombieNurse,RambunctiousRed
+zombieNurseFeral,Feral RambunctiousRed
+zombieNurseRadiated,Radiated RambunctiousRed
+zombieSkateboarder,sphereII
+zombieSkateboarderFeral,Feral sphereII
+zombieSkateboarderRadiated,Radiated sphereII
+zombieYo,YubiNashi
+zombieYoFeral,Feral YubiNashi
+zombieYoRadiated,Radiated YubiNashi
 
 loadingTipDishong1,"All seed crafting is unlocked by default, and some seeds only require a couple of food items to make. There are SOME usuable farmplots in the tower ..."
 loadingTipDishong1_title,Seeds

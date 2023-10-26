@@ -38,11 +38,11 @@
 		
 		<action type="TrackQuest"/>
 
-		<objective type="FetchKeep" id="resourceElectricParts" value="49" phase="1"/>
+		<objective type="FetchKeep" id="resourceElectricParts" value="33" phase="1"/>
 		<objective type="FetchKeep" id="resourceHeadlight" value="8" phase="1"/>
-		<objective type="FetchKeep" id="resourceMetalPipe" value="75" phase="1"/>
-		<objective type="FetchKeep" id="resourceMechanicalParts" value="15" phase="1"/>
-		<objective type="FetchKeep" id="resourceSpring" value="6" phase="1"/>
+		<objective type="FetchKeep" id="resourceMetalPipe" value="50" phase="1"/>
+		<objective type="FetchKeep" id="resourceMechanicalParts" value="10" phase="1"/>
+		<objective type="FetchKeep" id="resourceSpring" value="6" phase="4"/>
 
 		<reward type="Exp" value="50"/>
 		<reward type="Quest" id="quest_DishongTowerChallenge02"/>
@@ -61,11 +61,11 @@
 		
 		<action type="TrackQuest"/>
 
-		<objective type="FetchKeep" id="resourceForgedSteel" value="187" phase="1"/>
-		<objective type="FetchKeep" id="resourceMechanicalParts" value="60" phase="1"/>
-		<objective type="FetchKeep" id="resourceDuctTape" value="37" phase="1"/>
-		<objective type="FetchKeep" id="resourceLeather" value="60" phase="1"/>
-		<objective type="FetchKeep" id="resourceElectricParts" value="30" phase="1"/>
+		<objective type="FetchKeep" id="resourceForgedSteel" value="125" phase="1"/>
+		<objective type="FetchKeep" id="resourceMechanicalParts" value="40" phase="1"/>
+		<objective type="FetchKeep" id="resourceDuctTape" value="25" phase="1"/>
+		<objective type="FetchKeep" id="resourceLeather" value="40" phase="1"/>
+		<objective type="FetchKeep" id="resourceElectricParts" value="20" phase="1"/>
 
 		<reward type="Exp" value="50"/>
 		<reward type="Quest" id="quest_DishongTowerChallenge03"/>
