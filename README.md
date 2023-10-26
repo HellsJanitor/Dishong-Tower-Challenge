@@ -19,7 +19,7 @@ Loot tables adjusted accordingly, so certain zombies have a chance to drop certa
 Removed Better Barter, Daring Adventurer and Charismatic Nature from the intellect skill tree.
 Number of Dukes/old cash from Businessman/Party Girl is increased, probability increased from 10% to 20%.
 Slight increase in oil shale from cement mixer loot.
-Increased chance of antibiotics from nurses per perk spoint spent in Physician, up to a max chance of 35%.
+Increased chance of antibiotics from nurses per perk point spent in Physician, up to a max chance of 35%.
 Base chance of skill magazines from radiated zombies increased from 10% to 13%.
 Changed the quest requirements for gathering gyro parts to reflect maxed-out Grease Monkey (removed a possible soft-lock)
 Antibiotics loot probability from nurses now tied to Physician perk.
