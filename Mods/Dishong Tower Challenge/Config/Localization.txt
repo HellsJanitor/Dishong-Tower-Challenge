@@ -1,4 +1,6 @@
 Key,English
+goGameWorld,[FF4F00]Select 'Dishong Challenge (biome)'[-]
+goLootRespawnDays,Loot Respawn-[FF4F00]Select ANYTHING except 'Disabled'[-]
 resourceCoalDesc,"A great fuel source and a core ingredient for gunpowder.\n\nCan be made from wood in a campfire",,Ein sehr gutes Brennmaterial und eine der wichtigsten Zutaten für die Fertigung von Schießpulver.,Una gran fuente de combustible y un ingrediente principal para la pólvora,Une excellente source de carburant et un composant de base pour la poudre à canon.,Un'ottima fonte di carburante e un ingrediente fondamentale per la polvere da sparo.,良質な燃料として、また火薬の主成分として。,우수한 연료이며 화약의 핵심 성분입니다.,Doskonały nośnik energii i nieodzowny składnik prochu strzelniczego.,Uma excelente fonte de combustível e um ingrediente importantíssimo da pólvora.,Отличное топливо и ингредиент для пороха.,Harika bir yakıt kaynağıdır ve barutun ana maddesidir.,火药的重要燃料来源和核心材料。,火藥的重要燃料來源和核心成分。
 resourceAcidDesc,A resource used in crafting recipes.\n\nCan be crafted in beaker at a campfire or at the chemistry station.
 resourceBatteryAcid,Bottle of Acid
@@ -52,7 +54,7 @@ perkGreaseMonkeyRank2LongDesc,"Not quite a fully-fledged petrochemist, but at le
 perkGreaseMonkeyRank3Desc,Life's a gas
 perkGreaseMonkeyRank3LongDesc,Now you're getting the hang of it! Just need a vehicle to put this stuff in.\n\nCraft gasoline.\n\nRepair kits are 30 percent more effective on vehicles.
 perkGreaseMonkeyRank4Desc,Not very basic
-perkGreaseMonkeyRank4LongDesc,"Don't spill this stuff. If you step in it, you won't have a leg to stand on..."\n\nCraft acid.\n\nRepair kits are 40 percent more effective on vehicles.
+perkGreaseMonkeyRank4LongDesc,"Don't spill this stuff. If you step in it, you won't have a leg to stand on...\n\nCraft acid.\n\nRepair kits are 40 percent more effective on vehicles."
 perkGreaseMonkeyRank5Desc,At last!!
 perkGreaseMonkeyRank5LongDesc,"Well, you finally figured out how to do it...\nCraft gyrocopter parts 33% cheaper.\n\nRepair kits are 50 percent more effective on vehicles."
 vehiclesT1,Tier 1: Wheels

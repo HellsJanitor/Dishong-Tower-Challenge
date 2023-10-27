@@ -24,12 +24,16 @@
 	<!-- lowers number requirement of vehicle magazines to craft vehicles AFTER minibike, up to and including gyrocopter -->
 	<set xpath="//crafting_skill[@name='craftingVehicles']/@max_level">50</set>
 	<set xpath="//crafting_skill[@name='craftingVehicles']/effect_group//passive_effect[1]/@level">5,50</set>
+	<set xpath="//crafting_skill[@name='craftingVehicles']/effect_group//passive_effect[1]/@tags">vehicleWheels</set>
 	<set xpath="//crafting_skill[@name='craftingVehicles']//display_entry[@name_key='vehiclesT2']/@unlock_level">15</set>
 	<set xpath="//crafting_skill[@name='craftingVehicles']/effect_group//passive_effect[2]/@level">15,50</set>
+	<set xpath="//crafting_skill[@name='craftingVehicles']/effect_group//passive_effect[2]/@tags">resourceOil</set>
 	<set xpath="//crafting_skill[@name='craftingVehicles']//display_entry[@name_key='vehiclesT3']/@unlock_level">20</set>
 	<set xpath="//crafting_skill[@name='craftingVehicles']/effect_group//passive_effect[3]/@level">20,50</set>
+	<set xpath="//crafting_skill[@name='craftingVehicles']/effect_group//passive_effect[3]/@tags">ammoGasCan</set>
 	<set xpath="//crafting_skill[@name='craftingVehicles']//display_entry[@name_key='vehiclesT4']/@unlock_level">35</set>
 	<set xpath="//crafting_skill[@name='craftingVehicles']/effect_group//passive_effect[4]/@level">35,50</set>
+	<set xpath="//crafting_skill[@name='craftingVehicles']/effect_group//passive_effect[4]/@tags">resourceAcid,ammoGasCanBundle</set>
 	<set xpath="//crafting_skill[@name='craftingVehicles']//display_entry[@name_key='vehiclesT5']/@unlock_level">50</set>
 	<set xpath="//crafting_skill[@name='craftingVehicles']/effect_group//passive_effect[5]/@level">50,50</set>
 	
