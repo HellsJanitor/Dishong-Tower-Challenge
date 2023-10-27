@@ -48,15 +48,15 @@ DishongEntityLootContainerRadNurseLoot,Special Loot
 DishongEntityLootContainerRadLabWorkerLoot,Special Loot
 
 perkGreaseMonkeyRank1Desc,Wheely good
-perkGreaseMonkeyRank1LongDesc,Congratulations - you are now as smart as a primitive human!\n\nCraft wheels.\n\nRepair kits are 10 percent more effective on vehicles.
+perkGreaseMonkeyRank1LongDesc,Congratulations - you are now as smart as a primitive human!\n\nCraft wheels 33% cheaper.\n\nRepair kits are 10 percent more effective on vehicles.
 perkGreaseMonkeyRank2Desc,Oil be back
-perkGreaseMonkeyRank2LongDesc,"Not quite a fully-fledged petrochemist, but at least it's a start.\n\nCraft oil & acid.\n\nRepair kits are 20 percent more effective on vehicles."
+perkGreaseMonkeyRank2LongDesc,"Not quite a fully-fledged grease monkey, but at least it's a start.\n\nRepair kits are 20 percent more effective on vehicles."
 perkGreaseMonkeyRank3Desc,Life's a gas
-perkGreaseMonkeyRank3LongDesc,Now you're getting the hang of it! Just need a vehicle to put this stuff in.\n\nCraft gasoline.\n\nRepair kits are 30 percent more effective on vehicles.
+perkGreaseMonkeyRank3LongDesc,Now you're starting to know your way around a toolbox!\n\nRepair kits are 30 percent more effective on vehicles.
 perkGreaseMonkeyRank4Desc,Not very basic
-perkGreaseMonkeyRank4LongDesc,"Don't spill this stuff. If you step in it, you won't have a leg to stand on...\n\nCraft acid.\n\nRepair kits are 40 percent more effective on vehicles."
+perkGreaseMonkeyRank4LongDesc,"Your mechanical prowess is that of a professional pit crew!\n\nRepair kits are 40 percent more effective on vehicles."
 perkGreaseMonkeyRank5Desc,At last!!
-perkGreaseMonkeyRank5LongDesc,"Well, you finally figured out how to do it...\nCraft gyrocopter parts 33% cheaper.\n\nRepair kits are 50 percent more effective on vehicles."
+perkGreaseMonkeyRank5LongDesc,"You're a full-on aeronautical MacGyver.\nCraft gyrocopter parts 33% cheaper.\n\nRepair kits are 50 percent more effective on vehicles."
 vehiclesT1,Tier 1: Wheels
 vehiclesT2,Tier 2: Oil
 vehiclesT3,Tier 3: Gas Cans
