@@ -130,9 +130,9 @@ zombieYoRadiated,Radiated YubiNashi
 
 loadingTipDishong1,"All seed crafting is unlocked by default, and some seeds only require a couple of food items to make. There are SOME usuable farmplots in the tower ..."
 loadingTipDishong1_title,Seeds
-loadingTipDishong2,"Almost every zombie can be looted once dead, and specific zombies will have a chance to drop specific loot."
+loadingTipDishong2,"Almost every zombie will drop a loot bag once dead, and specific zombies will have a chance to drop specific loot."
 loadingTipDishong2_title,Zombie Loot
-loadingTipDishong3,"Skill magazines can be found in their usual places, and certain zombies have a chance to give certain magazines after looting their corpse."
+loadingTipDishong3,"Skill magazines can be found in their usual places, and certain zombies have a chance to give certain magazines in their loot bag."
 loadingTipDishong3_title,Skill Magazines
 loadingTipDishong4,"Loot respawn is integral to completing this challenge. Loot will automatically restock after a certain period of time, determined by the 'Loot Respawn' number you set before starting the game."
 loadingTipDishong4_title,Looting
@@ -146,8 +146,16 @@ loadingTipDishong8,"Trying to leave the tower other than by gyrocopter is a very
 loadingTipDishong8_title,Cheating
 loadingTipDishong9,"Certain in-game functions, like zombie health bars and XP pop-ups, can be enabled or disabled from the pause menu. Pause the game, click 'video' then the 'Customization' tab."
 loadingTipDishong9_title,Customization
-loadingTipDishong10,"Thanks to w00kien00kie for the custom code, Khelldon for the custom menu, Frantic_Dan for ideas & xpath help, Zilox, Midnight Designer, SphereII, and Pitchsilent for the original base mod and concept"
+loadingTipDishong10,"Thanks to w00kien00kie for the custom code, Khelldon for the custom menu, Frantic_Dan for ideas & xpath help, Zilox, Midnight Designer, SphereII, and Pitchsilent for the original base mod and concept."
 loadingTipDishong10_title,Special Thanks
+loadingTipDishong11,"Horde nights CAN be disabled from the main menu if you wish, or, if you'd rather have more choice, the 'Avoid Bloodmoon' injection can be crafted."
+loadingTipDishong11_title,Horde Night
+loadingTipDishong12,"There are many changes from vanilla for resource gathering. Clay soil, for example, can be found by harvesting potted plants, farm plots, and destroyed stone"
+loadingTipDishong12_title,Tower Resources
+loadingTipDishong13,"You can lock slots in your inventory by hovering over a slot and pressing 'X'. The slot will have a green border, indicating it is locked."
+loadingTipDishong13_title,Locked Slots
+loadingTipDishong14,"Keep it repaired. Look after your wrench, and your wrench will look after you."
+loadingTipDishong14_title,Wrench
 
 resourcePaper,"Chinese Takeout Menu"
 resourcePaperDesc,"'Chicken' Fried 'Rice'\n'Fresh' 'Egg' Rolls\nGeneral MD's Chicken\nDeep-fried wontons with hot cream cheese and crab\n\n$2 Tuesday Buffet!\n*Zombies Eat Free on Tuesdays"

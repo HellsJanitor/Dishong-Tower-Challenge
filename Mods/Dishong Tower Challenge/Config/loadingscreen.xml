@@ -17,6 +17,11 @@
 <set xpath="/doc/tips//tip[8]/@key">loadingTipDishong8</set>
 <set xpath="/doc/tips//tip[9]/@key">loadingTipDishong9</set>
 <set xpath="/doc/tips//tip[10]/@key">loadingTipDishong10</set>
+<set xpath="/doc/tips//tip[11]/@key">loadingTipDishong11</set>
+<set xpath="/doc/tips//tip[12]/@key">loadingTipDishong12</set>
+<set xpath="/doc/tips//tip[13]/@key">loadingTipDishong13</set>
+<set xpath="/doc/tips//tip[14]/@key">loadingTipDishong14</set>
+
 
 <remove xpath="/doc/tips//tip[@key='loadingTipMainHUD']"/>
 <remove xpath="/doc/tips//tip[@key='loadingStoneAxe']"/>
