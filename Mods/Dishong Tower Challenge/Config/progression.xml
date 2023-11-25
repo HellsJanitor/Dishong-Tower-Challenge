@@ -19,6 +19,7 @@
 	<set xpath="//perk[@name='perkGreaseMonkey']/effect_group//passive_effect[3]/@value">3,15</set>	
 	
 	<!-- Once vehicle crafting skill reaches 50, set the probability bonus of finding vehicle crafting skill magazines to 0 -->
+	<set xpath="//perk[@name='perkGreaseMonkey']/effect_group/passive_effect[3]/requirement[@name='ProgressionLevel']/@value">50</set>
 	<set xpath="//perk[@name='perkGreaseMonkey']/effect_group/passive_effect[4]/requirement[@name='ProgressionLevel']/@value">50</set>
 	
 	<!-- lowers number requirement of vehicle magazines to craft vehicles AFTER minibike, up to and including gyrocopter -->
@@ -47,11 +48,13 @@
 	<set xpath="//crafting_skill[@name='craftingVehicles']//display_entry[4]/@icon">resourceAcid</set>
 	
 	<!-- increase probabilty of finding workstation magazines with each perk point -->
-	<set xpath="//perk[@name='perkLockPicking']/effect_group//passive_effect[5]/@value">3,15</set>
+	<set xpath="//perk[@name='perkLockPicking']/effect_group//passive_effect[4]/@value">3,15</set>
 	<set xpath="//perk[@name='perkAdvancedEngineering']/effect_group//passive_effect[11]/@value">3,15</set>
 	
 	<!-- Once workstation crafting skill reaches 50, set the probability bonus of finding workstation crafting skill magazines to 0 -->
+	<set xpath="//perk[@name='perkLockPicking']/effect_group/passive_effect[4]/requirement[@name='ProgressionLevel']/@value">50</set>
 	<set xpath="//perk[@name='perkLockPicking']/effect_group/passive_effect[5]/requirement[@name='ProgressionLevel']/@value">50</set>
+	<set xpath="//perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[11]/requirement[@name='ProgressionLevel']/@value">50</set>
 	<set xpath="//perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[15]/requirement[@name='ProgressionLevel']/@value">50</set>
 	
 	<!-- lowers number requirement of workstation magazines to craft workstations AFTER workbench, up to and including crucible -->
