@@ -85,6 +85,9 @@ sledgehammersSkillMagazineDT,Get Hammered
 spearsSkillMagazineDT,Sharp Sticks
 roboticsSkillMagazineDT,Tech Planet
 explosivesSkillMagazineDT,Explosive Magazine
+zombieArlene,Moonlunaplays
+zombieArleneFeral,Feral Moonlunaplays
+zombieArleneRadiated,Radiated Moonlunaplays
 zombieBiker,Zilox
 zombieBikerFeral,Feral Zilox
 zombieBikerRadiated,Radiated Zilox
