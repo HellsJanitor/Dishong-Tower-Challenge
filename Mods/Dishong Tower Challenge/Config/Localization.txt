@@ -201,4 +201,4 @@ Challenge Completion_description,"Congratulations on escaping the Tower!"
 Challenge Completion_subtitle,"Congratulations!"
 
 Quest_Completion_tip_title,Completed The Dishong Tower Challenge
-Quest_Completion_tip,"Congratulations! \n\nYou have successfully completed the Dishong Tower challenge! \n\nWant another challenge? \n\nTry The Spencer Mansion Incident!"
+Quest_Completion_tip,"[FFFF00]Congratulations! [-]\n\n[008000]You have successfully completed the Dishong Tower challenge! [-]\n\n[FF0000]Want another challenge? \n\nTry The Spencer Mansion Incident![-]"
