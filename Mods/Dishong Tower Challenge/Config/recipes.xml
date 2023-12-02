@@ -24,7 +24,7 @@
       <ingredient name="ammoArrowIron" count="1"/>
     </recipe>
 	
-	<recipe name="resourceBatteryAcid" count="1" craft_area="chemistryStation" craft_time="40" >
+	<recipe name="resourceAcid" count="1" craft_area="chemistryStation" craft_time="40" >
       <ingredient name="carBattery" count="1"/>
     </recipe>
 	
