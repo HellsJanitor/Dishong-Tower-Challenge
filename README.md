@@ -6,23 +6,39 @@ All files and folders needed to run the mod.
 CHANGELOG v 1.0.5
 
 Zombie corpses no longer lootable - they now drop an entity-specific red loot bag.
+
 Tweaked container loot respawn - it now shows a timer for when the container will be lootable again.
+
 Removed non-essential vehicle parts from loot & crafting.
+
 Removed beds and bedrolls from crafting.
+
 Removed LCB from crafting.
+
 Removed treasure maps from loot.
-Acid can now be made in the campfire, but a beaker is a required tool. Can also be crafted cheaper in the chem station. Unlocked with Grease Monkey.
+
+Acid can now be made in the campfire, but a beaker is a required tool. Can also be crafted cheaper in the chem station.
+
 Mod-specific loading screen tips.
+
 Localization tweaks.
+
 Perk books can now drop from zombies along with magazines. The chance of a perk book increases with the relevant perk points spent, just like skill magazines.
+
 Loot tables adjusted accordingly, so certain zombies have a chance to drop certain perk books, just like skill magazines.
+
 Removed Better Barter, Daring Adventurer and Charismatic Nature from the intellect skill tree.
+
 Number of Dukes/old cash from Businessman/Party Girl is increased, probability increased from 10% to 20%.
+
 Slight increase in oil shale from cement mixer loot.
+
 Increased chance of antibiotics from nurses per perk point spent in Physician, up to a max chance of 35%.
+
 Base chance of skill magazines from radiated zombies increased from 10% to 13%.
+
 Changed the quest requirements for gathering gyro parts to reflect maxed-out Grease Monkey (removed a possible soft-lock)
-Antibiotics loot probability from nurses now tied to Physician perk.
+
 Player placed workstations can be picked up with no need for a landclaim block. (Workstation MUST be empty of all tools, items, and materials for this to work)
 
 
