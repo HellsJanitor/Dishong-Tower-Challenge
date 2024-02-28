@@ -39,7 +39,6 @@
 	<insertafter xpath="//item[@name='resourceAcid']">
 	<item name="resourceBatteryAcid">
 		<property name="CustomIcon" value="resourceAcid"/>
-		<property name="CreativeMode" value="None"/>
 		<property name="HoldType" value="45"/>
 		<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
 		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
