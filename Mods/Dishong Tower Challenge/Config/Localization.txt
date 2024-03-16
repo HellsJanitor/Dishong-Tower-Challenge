@@ -124,6 +124,9 @@ zombieMoeRadiated,Radiated PitchSilent
 zombieNurse,RambunctiousRed
 zombieNurseFeral,Feral RambunctiousRed
 zombieNurseRadiated,Radiated RambunctiousRed
+zombiePartyGirl,WaywardEko
+zombiePartyGirlFeral,Feral WaywardEko
+zombiePartyGirlRadiated,Radiated WaywardEko
 zombieSkateboarder,sphereII
 zombieSkateboarderFeral,Feral sphereII
 zombieSkateboarderRadiated,Radiated sphereII
