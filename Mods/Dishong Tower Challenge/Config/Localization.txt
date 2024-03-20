@@ -103,6 +103,9 @@ zombieDarleneRadiated,Radiated Lumun
 zombieFatCop,Frantic_Dan
 zombieFatCopFeral,Feral Frantic_Dan
 zombieFatCopRadiated,Radiated Frantic_Dan
+zombieFemaleFat,More2Me4Life
+zombieFemaleFatFeral,Feral More2Me4Life
+zombieFemaleFatRadiated,Radiated More2Me4Life
 zombieJanitor,HellsJanitor
 zombieJanitorFeral,Feral HellsJanitor
 zombieJanitorRadiated,Radiated HellsJanitor
