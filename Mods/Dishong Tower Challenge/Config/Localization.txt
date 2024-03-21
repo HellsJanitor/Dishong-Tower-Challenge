@@ -109,6 +109,9 @@ zombieFemaleFatRadiated,Radiated More2Me4Life
 zombieJanitor,HellsJanitor
 zombieJanitorFeral,Feral HellsJanitor
 zombieJanitorRadiated,Radiated HellsJanitor
+zombieJoe,NotOnly25
+zombieJoeFeral,Feral NotOnly25
+zombieJoeRadiated,Radiated NotOnly25
 zombieLab,Kualija
 zombieLabFeral,Feral Kualija
 zombieLabRadiated,Radiated Kualija
