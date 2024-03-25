@@ -35,7 +35,7 @@
 	<insertbefore xpath="//item[@name='resourceAcid']//property[1]">
 		<property name="UnlockedBy" value="craftingVehicles"/>
 	</insertbefore>	
-
+	
 	<!-- <property name="DescriptionKey" value="armorLeatherGroupDesc"/> -->
 	
 	<set xpath="//item[@name='resourceWaterFilter']//property[@name='Stacknumber']/@value">1</set>

@@ -1,15 +1,60 @@
 <config>
 	<insertafter xpath="//buff[@name='buffInternalBleeding']">
-	<buff name="buffInternalBleedingAC" name_key="buffInternalBleedingName" description_key="buffInternalBleedingDesc" tooltip_key="buffInternalBleedingTooltip" icon="ui_game_symbol_critical" icon_color="255,0,0" icon_blink="true">
-		<damage_type value="bloodloss"/>		
-		<stack_type value="ignore"/>
-		<duration value="60"/>
+		<buff name="buffInternalBleedingAC" name_key="buffInternalBleedingName" description_key="buffInternalBleedingDesc" tooltip_key="buffInternalBleedingTooltip" icon="ui_game_symbol_critical" icon_color="255,0,0" icon_blink="true">
+			<damage_type value="bloodloss"/>
+			<stack_type value="ignore"/>
+			<duration value="60"/>
 
-		<effect_group>
-			<passive_effect name="HealthChangeOT" operation="base_subtract" value="1,5,200" duration="0,3,60"/>
-			<triggered_effect trigger="onSelfDied" action="RemoveBuff" buff="buffInternalBleeding"/>
-			<requirement name="EntityTagCompare" tags="player"/>
-		</effect_group>
-	</buff>	
+			<effect_group>
+				<passive_effect name="HealthChangeOT" operation="base_subtract" value="1,5,200" duration="0,3,60"/>
+				<triggered_effect trigger="onSelfDied" action="RemoveBuff" buff="buffInternalBleeding"/>
+				<requirement name="EntityTagCompare" tags="player"/>
+			</effect_group>
+		</buff>
+	</insertafter>
+	
+	<insertafter xpath="//buff[@name='buffRadiation03']">
+		<buff name="buffBiomeRadiation" name_key="buffRadiation03Name" description_key="buffRadiation03Desc" tooltip_key="buffRadiation03Tooltip" icon="ui_game_symbol_radiation" icon_color="255,0,0" icon_blink="true">
+			<damage_type value="radiation"/>
+			<stack_type value="ignore"/>
+			<duration value="5000"/>
+			<update_rate value="1"/>
+
+			<effect_group>
+				<passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,10" value="1,1"/>
+				<passive_effect name="HealthChangeOT" operation="base_subtract" duration="10,50" value="1,30"/>
+				<passive_effect name="HealthChangeOT" operation="base_subtract" duration="50,1000" value="40,1000"/>
+				<triggered_effect trigger="onSelfDied" action="RemoveBuff" buff="buffBiomeRadiation"/>
+				<requirement name="EntityTagCompare" tags="player"/>
+			</effect_group>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="RadiationSignal" operation="add" value="1"/>
+
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="RadiationSignal" operation="set" value="0">
+					<requirement name="CVarCompare" cvar="RadiationSignal" operation="Equals" value="2"/>
+				</triggered_effect>
+
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="RadiationSignal" operation="set" value="0"/>
+
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="a_radiated_strong_lp">
+				<requirement name="EntityTagCompare" tags="player"/></triggered_effect>
+
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyScreenEffect" intensity="1" fade=".7" effect_name="Hot">
+					<requirement name="CVarCompare" cvar="RadiationSignal" operation="Equals" value="1"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyScreenEffect" intensity="0" fade=".7" effect_name="Hot">
+					<requirement name="CVarCompare" cvar="RadiationSignal" operation="Equals" value="0"/>
+				</triggered_effect>
+
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Hot"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffBiomeRadiation">
+					<requirement name="CVarCompare" cvar="_biomeradiation" operation="LT" value="2.5"/>
+				</triggered_effect>
+
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" effect_name="Radiation" intensity=".6" fade="2"/>
+				<triggered_effect trigger="onSelfDied" action="ModifyScreenEffect" effect_name="Radiation" intensity="0" fade="0"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" effect_name="Radiation" intensity="0" fade="2"/>
+			</effect_group>
+		</buff>
 	</insertafter>
 </config>
