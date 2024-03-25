@@ -1,0 +1,32 @@
+<Hells_Janitor>
+	<set xpath="//material[@id='Mfarmland']//property[@name='stability_glue']/@value">2</set>
+	<set xpath="//material[@id='MfertilizedFarmland']//property[@name='stability_glue']/@value">2</set>
+	
+	<append xpath="/materials">
+		<material id="MconcreteNoGlue">
+			<property name="damage_category" value="stone"/>
+			<property name="surface_category" value="stone"/>
+			<property name="forge_category" value="stone"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="stone"/>
+			<property name="stability_glue" value="1"/>
+			<property name="Mass" type="int" value="10"/>
+			<property name="explosionresistance" value="1.1"/>
+			<property name="MaxDamage" value="2500"/>
+			<property name="Experience" value="4"/>
+		</material>
+		
+		<material id="Mconcrete_shapesNoGlue">
+			<property name="damage_category" value="stone"/>
+			<property name="surface_category" value="stone"/>
+			<property name="forge_category" value="stone"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="stone"/>
+			<property name="stability_glue" value="1"/>
+			<property name="Mass" type="int" value="10"/>
+			<property name="explosionresistance" value="1.2"/>
+			<property name="MaxDamage" value="5000"/>
+			<property name="Experience" value="4"/>
+		</material>
+	</append>
+</Hells_Janitor>

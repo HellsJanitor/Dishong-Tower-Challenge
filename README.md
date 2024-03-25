@@ -79,7 +79,36 @@ Challenge Rules:
 
 7: You must survive until you are able to build a gyrocopter and fly off the roof.
 
-Installation:
+###Contributors:
+
+DishongGameOptions 			-Author: w00kien00kie
+
+DishongLootBags 			-Author: w00kien00kie
+
+DishongPickupWorkstations 	-Author: w00kien00kie
+
+Cleaner HUD					-Author: Frantic_Dan
+
+KHA21-HPBars				-Author: Khaine
+
+Khelldon Custom Menu 		-Author: Khelldon
+
+WMMAvoidBloodmoon 			-Author: w00kien00kie
+
+WMMLootRespawnTweak			-Author: w00kien00kie
+
+WMMPersistGameOptions		-Author: w00kien00kie
+
+WMMStaminaDehydrationFix	-Author: w00kien00kie
+
+WMMStashBackpack			-Author: w00kien00kie
+
+WMMVideoOptions				-Author: w00kien00kie
+
+
+###Credit to Glock9 for the very first idea of the challenge, which inspired the creation of the mod.
+
+##Installation:
 
 The mod comes already pre-bundled in a Mods folder - just extract that Mods folder into your base game directory, usually Steam\steampps\common\7DaystoDie, then run the game. Alternatively, the mod is on the mod launcher - just install it from there.
 This mod is optimized for Alpha 21.2, but *should* run on all Alpha 21 installations.

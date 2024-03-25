@@ -1,6 +1,9 @@
 ﻿<configs>
        
-  <!-- Remove all surface biome decorations -->
-  <remove xpath="/worldgeneration/biomes/biome//decorations/decoration" />
+	<!-- Remove all surface biome decorations -->
+	<remove xpath="/worldgeneration/biomes/biome//decorations/decoration"/>
+  
+	<set xpath="//biome[@name='wasteland']//layers//layer[@blockname='terrDestroyedStone']/@blockname">terrWastelandGround</set>
+	<setattribute xpath="//biome[@name='wasteland']" name="topsoil_block">terrWastelandGround</setattribute>
 
 </configs>

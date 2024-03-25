@@ -24,26 +24,26 @@ Antibiotics loot probability from nurses now tied to Physician perk.
 Player placed workstations can be picked up with no need for a landclaim block. (Workstation MUST be empty of all tools, items, and materials for this to work)			
 									
 									
-									
-									THE DISHONG TOWER CHALLENGE:
-			Can you survive and escape the Dishong Tower, using nothing but what you can scavenge from the tower itself?
-						You have one life, one mission, one means of escape.
+THE DISHONG TOWER CHALLENGE:
+Can you survive and escape the Dishong Tower, using nothing but what you can scavenge from the tower itself?
+
+You have one life, one mission, one means of escape.
 						
 This challenge places you, a lone survivor, in the eponymous Dishong Tower, a towering edifice of death incarnate. Your only means of escape is to gather everything you need to be able to craft a gyrocopter and make your escape from the rooftop to the nearby settlement. You have one life. Make it count.
 
  
-	A mini overhaul mod, re-imagined for Alpha 21. One tower, one trader, one means of escape.
+A mini overhaul mod, re-imagined for Alpha 21. One tower, one trader, one means of escape.
 
  
 
 Four custom worlds, each a different biome, so you can choose your starting "difficulty" - Forest, Desert, Snow, or the ultimate challenge, Wasteland.
 
-	Custom-edited Dishong Tower POI, giving you everything you need to be able to complete your quest.
+Custom-edited Dishong Tower POI, giving you everything you need to be able to complete your quest.
 
-						Custom questline, guiding you on your way.
+Custom questline, guiding you on your way.
 
-		Custom HUD, and in-game options added for toggling crosshair visibility, health bar visibility, etc.
-					Pause the game, and look for "Video", then the "Customize" tab.
+Custom HUD, and in-game options added for toggling crosshair visibility, health bar visibility, etc.
+Pause the game, and look for "Video", then the "Customize" tab.
 					
 CHALLENGE RULES: 
 
@@ -61,19 +61,21 @@ CHALLENGE RULES:
 
 7: You must survive until you are able to build a gyrocopter and fly off the roof.
 			
-						Contributors:
-						DishongGameOptions 			-Author: w00kien00kie
-						DishongLootBags 			-Author: w00kien00kie
-						DishongPickupWorkstations 	-Author: w00kien00kie
-						Cleaner HUD					-Author: Frantic_Dan
-						KHA21-HPBars				-Author: Khaine
-						Khelldon Custom Menu 		-Author: Khelldon
-						WMMAvoidBloodmoon 			-Author: w00kien00kie
-						WMMLootRespawnTweak			-Author: w00kien00kie
-						WMMPersistGameOptions		-Author: w00kien00kie
-						WMMStaminaDehydrationFix	-Author: w00kien00kie
-						WMMStashBackpack			-Author: w00kien00kie
-						WMMVideoOptions				-Author: w00kien00kie
+Contributors:
+DishongGameOptions 			-Author: w00kien00kie
+DishongLootBags 			-Author: w00kien00kie
+DishongPickupWorkstations 	-Author: w00kien00kie
+Cleaner HUD					-Author: Frantic_Dan
+KHA21-HPBars				-Author: Khaine
+Khelldon Custom Menu 		-Author: Khelldon
+WMMAvoidBloodmoon 			-Author: w00kien00kie
+WMMLootRespawnTweak			-Author: w00kien00kie
+WMMPersistGameOptions		-Author: w00kien00kie
+WMMStaminaDehydrationFix	-Author: w00kien00kie
+WMMStashBackpack			-Author: w00kien00kie
+WMMVideoOptions				-Author: w00kien00kie
+
+Credit to Glock9 for the very first idea of the challenge, which inspired the creation of the mod.
 						
 For full details, check the forum post here: https://community.7daystodie.com/topic/34098-the-dishong-tower-challenge-updated-for-alpha-21/
 			
