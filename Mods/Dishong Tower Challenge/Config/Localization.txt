@@ -136,6 +136,9 @@ zombiePartyGirlRadiated,Radiated WaywardEko
 zombieSkateboarder,sphereII
 zombieSkateboarderFeral,Feral sphereII
 zombieSkateboarderRadiated,Radiated sphereII
+zombieSoldier,Shadow_Floodlight
+zombieSoldierFeral,Feral Shadow_Floodlight
+zombieSoldierRadiated,Raditaed Shadow_Floodlight
 zombieSteve,NotOnly25
 zombieSteveFeral,Feral NotOnly25
 zombieSteveRadiated,Radiated NotOnly25
