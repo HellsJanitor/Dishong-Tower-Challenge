@@ -133,6 +133,9 @@ zombieNurseRadiated,Radiated RambunctiousRed
 zombiePartyGirl,WaywardEko
 zombiePartyGirlFeral,Feral WaywardEko
 zombiePartyGirlRadiated,Radiated WaywardEko
+zombieScreamer,KimmyTot
+zombieScreamerFeral,Feral KimmyTot
+zombieScreamerRadiated,Radiated KimmyTot
 zombieSkateboarder,sphereII
 zombieSkateboarderFeral,Feral sphereII
 zombieSkateboarderRadiated,Radiated sphereII
